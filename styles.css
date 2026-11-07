@@ -1,0 +1,1021 @@
+/* Showroom after hours: black lacquer, brass hairlines, spec sheets. Gold #cca158 is the one accent.
+   Layout: full-bleed car photo over a search bar, then alternating ruled spec sections and photo bands.
+   To change the headline typeface, swap --display here and the family in the Google Fonts link. */
+:root{
+  color-scheme:dark;--display:'Barlow Condensed','Arial Narrow',Arial,sans-serif;
+  --bg:#000000;--s0:#131209;--s1:#181818;--s2:#1F1F1F;--s3:#272727;
+  --line:rgba(239,233,222,.1);--line2:rgba(239,233,222,.16);
+  --tx:#EFE9DE;--tx2:#AAA398;--mut:#8A847A;
+  --gold:#CCA158;--gold-hi:#D8B475;--gold-line:rgba(204,161,88,.45);--gold-soft:rgba(204,161,88,.1);
+  --err:#E5484D;--err-tx:#FF8589;
+  --sp2:2px;--sp4:4px;--sp8:8px;--sp12:12px;--sp16:16px;--sp24:24px;--sp32:32px;--sp40:40px;--sp48:48px;--sp64:64px;--sp80:80px;--sp96:96px;
+  --ease:cubic-bezier(0.22,1,0.36,1);--fast:200ms;--slow:600ms;
+  --font:'Inter',system-ui,sans-serif;--mono:'Geist Mono',ui-monospace,monospace;
+  --wrap:1280px
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sp80)}
+body{background:var(--bg);color:var(--tx);font-family:var(--font);-webkit-font-smoothing:antialiased}
+em,i{font-style:normal}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.skip{position:absolute;left:var(--sp16);top:-64px;background:var(--gold);color:#000;padding:var(--sp8) var(--sp12);border-radius:8px;z-index:200}.skip:focus{top:var(--sp16)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* text styles */
+/* headings: Barlow Condensed Bold; everything else (descriptions, labels, buttons) is Inter via --font */
+.heading-1{font-family:var(--display);font-size:clamp(44px,6.2vw,84px);line-height:1;font-weight:700;letter-spacing:0}
+.heading-2{font-family:var(--display);font-size:clamp(34px,4.2vw,56px);line-height:1.05;font-weight:700;letter-spacing:0}
+.heading-3{font-family:var(--display);font-size:36px;line-height:40px;font-weight:700;letter-spacing:0}
+.heading-4{font-family:var(--display);font-size:32px;line-height:36px;font-weight:700;letter-spacing:.005em}
+.heading-5{font-family:var(--display);font-size:26px;line-height:32px;font-weight:700;letter-spacing:.005em}
+.heading-6{font-family:var(--display);font-size:22px;line-height:28px;font-weight:700;letter-spacing:.01em}
+.title-2{font-size:18px;line-height:28px;font-weight:500}.title-3{font-size:16px;line-height:24px;font-weight:500}.title-4{font-size:14px;line-height:20px;font-weight:500}
+.body-3{font-size:16px;line-height:24px;font-weight:400}.body-5{font-size:14px;line-height:20px;font-weight:500}.body-6{font-size:14px;line-height:20px;font-weight:400}
+.caption-1{font-size:14px;line-height:20px;font-weight:500}.caption-2{font-size:14px;line-height:20px;font-weight:400}.caption-4{font-size:12px;line-height:16px;font-weight:500}.caption-5{font-size:12px;line-height:16px;font-weight:400}
+h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
+.lead{color:var(--tx2);max-width:560px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp8);min-height:44px;padding:var(--sp8) var(--sp16);border-radius:8px;border:1px solid var(--line2);background:var(--s1);color:var(--tx);cursor:pointer;font-weight:600;white-space:nowrap;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06);transition:background-color var(--fast) var(--ease),border-color var(--fast) var(--ease),color var(--fast) var(--ease),transform var(--fast) var(--ease)}
+.btn-sm{font-size:14px;line-height:20px;min-height:36px;padding:var(--sp8) var(--sp12)}.btn-md{font-size:16px;line-height:24px}
+.btn:hover{background:var(--s2);border-color:var(--gold-line)}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#000;box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+.btn-gold:hover{background:var(--gold-hi);border-color:var(--gold-hi)}
+.btn:active{transform:scale(.98)}
+.btn i{font-size:18px}
+.row{display:flex;flex-wrap:wrap;gap:var(--sp12)}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto;z-index:100;background:rgba(0,0,0,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:var(--wrap);margin:0 auto;height:72px;padding:0 var(--sp64);display:flex;align-items:center;gap:var(--sp32)}
+.brand{white-space:nowrap;font-weight:600;margin-right:auto}
+.menu-btn{display:none;width:44px;height:44px;border:0;background:transparent;position:relative;cursor:pointer}
+.menu-btn span{position:absolute;left:12px;right:12px;height:1.5px;background:var(--tx);transition:transform var(--slow) var(--ease)}.menu-btn span:nth-child(1){top:18px}.menu-btn span:nth-child(2){top:24px}
+.menu-open .menu-btn span:nth-child(1){transform:translateY(3px) rotate(45deg)}.menu-open .menu-btn span:nth-child(2){transform:translateY(-3px) rotate(-45deg)}
+.mobile-menu{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.94);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);display:flex;flex-direction:column;justify-content:center;gap:var(--sp24);padding:var(--sp32);opacity:0;visibility:hidden;transition:opacity 400ms var(--ease),visibility 400ms}
+.mobile-menu a{opacity:0;transform:translateY(24px);transition:transform 400ms var(--ease),opacity 400ms var(--ease)}
+.menu-open .mobile-menu{opacity:1;visibility:visible}.menu-open .mobile-menu a{opacity:1;transform:none}
+.menu-open .mobile-menu a:nth-child(1){transition-delay:60ms}.menu-open .mobile-menu a:nth-child(2){transition-delay:120ms}.menu-open .mobile-menu a:nth-child(3){transition-delay:180ms}.menu-open .mobile-menu a:nth-child(4){transition-delay:240ms}
+
+/* hero */
+.hero{min-height:100svh;max-width:var(--wrap);margin:0 auto;padding:var(--sp96) var(--sp64) var(--sp64);display:grid;grid-template-columns:5fr 6fr;gap:var(--sp64);align-items:center}
+.hero-copy{display:flex;flex-direction:column;gap:var(--sp24);align-items:flex-start}
+.hero-copy h1{max-width:680px}
+.proof{display:inline-flex;align-items:center;gap:var(--sp8);color:var(--tx2)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none}
+
+/* the spec drawing: the one rich moment */
+.sheet{background:var(--s0);border:1px solid var(--line);border-radius:16px;padding:var(--sp24);display:flex;flex-direction:column;gap:var(--sp16)}
+.sheet-head{display:flex;align-items:center;gap:var(--sp12)}
+.sheet-head .title-4{margin-right:auto;text-wrap:balance}
+.lot{white-space:nowrap;flex:none;color:var(--gold);border:1px solid var(--gold-line);border-radius:4px;padding:var(--sp2) var(--sp8)}
+.drawing{width:100%;height:auto;display:block;overflow:visible}
+.drawing .body{color:var(--gold)}
+.drawing .ground{stroke:var(--line2);stroke-width:1}
+.drawing .lead-line{stroke:var(--gold-line);stroke-width:1}
+.drawing .pt{fill:var(--gold)}
+.drawing text{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.drawing .k{fill:var(--mut);font-size:11px}
+.drawing .v{fill:var(--tx);font-size:14px}
+.sheet-foot{color:var(--mut);display:flex;justify-content:space-between;gap:var(--sp16);flex-wrap:wrap}
+
+/* status */
+.status{display:inline-flex;align-items:center;gap:var(--sp8);color:var(--tx2);white-space:nowrap}
+.status::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.status.res::before{background:transparent;box-shadow:inset 0 0 0 1px var(--mut)}
+.status.res{color:var(--mut)}
+
+/* sections */
+.section{max-width:var(--wrap);margin:0 auto;padding:var(--sp96) var(--sp64)}
+.sec-head{display:flex;flex-direction:column;gap:var(--sp12);margin-bottom:var(--sp40)}
+.sec-head h2{max-width:680px}
+.filters{display:flex;flex-wrap:wrap;gap:var(--sp8);margin-bottom:var(--sp32)}
+.fbtn{min-height:36px;padding:var(--sp8) var(--sp12);border-radius:8px;border:1px solid var(--line2);background:transparent;color:var(--tx2);cursor:pointer;transition:color var(--fast) var(--ease),border-color var(--fast) var(--ease),background-color var(--fast) var(--ease)}
+.fbtn:hover{color:var(--tx);border-color:var(--gold-line)}
+.fbtn[aria-pressed=true]{background:var(--tx);border-color:var(--tx);color:#000}
+
+/* inventory */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp24)}
+.car{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:var(--sp8);display:flex;flex-direction:column;text-align:left;cursor:pointer;transition:border-color var(--fast) var(--ease),background-color var(--fast) var(--ease),transform var(--fast) var(--ease)}
+.car:hover{border-color:var(--gold-line);background:#1b1b1b}
+.car:active{transform:scale(.99)}
+.car-img{position:relative;background:var(--s0);border-radius:8px;aspect-ratio:16/10;display:grid;place-items:center;color:var(--mut);overflow:hidden;transition:color var(--fast) var(--ease)}
+.car-img svg{width:72%;height:auto}
+.car-img img{width:100%;height:100%;object-fit:cover}
+.car:hover .car-img{color:var(--gold)}
+/* real photos: a gentle zoom on hover, and labels on a dark chip so they read over the picture */
+.car-img.has-photo img{transition:transform 500ms var(--ease)}
+.car:hover .car-img.has-photo img{transform:scale(1.04)}
+.car-img.has-photo .status{background:rgba(0,0,0,.62);padding:var(--sp2) var(--sp8);border-radius:6px;color:var(--tx)}
+.hero-photo{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px}
+.dlg-media{display:flex;flex-direction:column;gap:var(--sp8);min-width:0}
+.dlg-media .car-img.has-photo{aspect-ratio:4/3;min-height:0}
+.thumbs{display:flex;flex-wrap:wrap;gap:var(--sp8)}
+.thumb{width:72px;flex:none;padding:0;border:1px solid var(--line2);border-radius:8px;overflow:hidden;background:var(--s0);cursor:pointer;aspect-ratio:1;transition:border-color var(--fast) var(--ease),opacity var(--fast) var(--ease);opacity:.6}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb:hover{opacity:.9}.thumb[aria-pressed=true]{border-color:var(--gold);opacity:1}
+.car-img .lot{position:absolute;left:var(--sp12);top:var(--sp12);background:var(--s0)}
+.car-img .status{position:absolute;right:var(--sp12);top:var(--sp12)}
+.car-body{padding:var(--sp16) var(--sp12) var(--sp12);display:flex;flex-direction:column;gap:var(--sp16);flex:1}
+.make{color:var(--mut)}
+.car-body h3{margin-top:var(--sp2)}
+.car-body .sub{color:var(--tx2);margin-top:var(--sp4)}
+.figs{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px}
+.figs div{padding:var(--sp8) var(--sp12);display:flex;flex-direction:column;gap:var(--sp2)}
+.figs div+div{box-shadow:inset 1px 0 0 var(--line)}
+.figs b{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;font-size:14px;line-height:20px}
+.figs span{color:var(--mut)}
+.cta{display:inline-flex;gap:var(--sp8);align-items:center;color:var(--gold);margin-top:auto}
+.cta i{transition:transform var(--fast) var(--ease)}.car:hover .cta i{transform:translateX(4px)}
+/* loading skeleton: drawn on the page, no card behind; every shape pulses together */
+.sk{display:flex;align-items:center;gap:var(--sp16)}
+.sk-shape{display:block;background-color:#21202D;animation:skPulse 1.6s ease-in-out infinite}
+.sk-img{width:138px;height:138px;border-radius:16px;flex:none}
+.sk-lines{flex:1;min-width:0;display:flex;flex-direction:column;gap:var(--sp12)}
+.sk-l1{width:100%;height:19px;border-radius:6px}.sk-l2{width:80%;height:15px;border-radius:6px}.sk-l3{width:55%;height:15px;border-radius:6px}
+.sk-pill{width:30%;height:26px;border-radius:13px;margin-top:var(--sp4)}
+@keyframes skPulse{50%{background-color:#464462}}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.empty{grid-column:1/-1;padding:var(--sp48);border:1px dashed var(--line2);border-radius:16px;text-align:center;color:var(--tx2)}
+
+/* brand strip */
+.brands{background:var(--s0);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:var(--sp96) 0;overflow:hidden}
+.brands-head{display:flex;flex-direction:column;align-items:center;gap:var(--sp12);text-align:center;padding:0 var(--sp24);margin-bottom:var(--sp64)}
+.brands-head .lead{max-width:560px}
+.eyebrow{display:inline-flex;align-items:center;gap:var(--sp12);color:var(--gold)}
+.rule{width:32px;height:1px;background:var(--gold-line)}
+.marquee{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.track{list-style:none;padding:0;display:flex;width:max-content;animation:marquee 40s linear infinite;will-change:transform}
+.marquee:hover .track{animation-play-state:paused}
+.brand-item{display:flex;align-items:center;gap:var(--sp16);padding:0 var(--sp48);color:var(--tx2);white-space:nowrap;transition:color var(--fast) var(--ease)}
+.brand-item:hover{color:var(--gold)}
+.mark{width:48px;height:48px;flex:none;background:currentColor;-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
+/* left to right: the track holds two identical halves, so sliding from -50% to 0 and jumping back is invisible */
+@keyframes marquee{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+
+/* steps: ruled columns */
+.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.steps li{padding:var(--sp32) var(--sp24);display:flex;flex-direction:column;gap:var(--sp12)}
+.steps li+li{box-shadow:inset 1px 0 0 var(--line)}
+.steps .num{color:var(--gold)}
+.steps h3{margin-top:var(--sp24)}
+.steps p{color:var(--tx2)}
+
+/* faq: two columns, ruled list */
+.faq-sec{display:grid;grid-template-columns:5fr 7fr;gap:var(--sp64);align-items:start}
+.faq-sec .sec-head{position:sticky;top:var(--sp96)}
+/* each question is its own dark card; the open one warms up and gets a gold edge */
+.faq{display:flex;flex-direction:column;gap:10px;max-width:800px}
+.faq details{background:#141414;border:1px solid rgba(204,161,88,.12);border-radius:12px;overflow:hidden}
+.faq details:hover{border-color:rgba(204,161,88,.3)}
+.faq details.on{background:#1B1915;border-color:rgba(204,161,88,.65);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:var(--sp16);padding:var(--sp16) var(--sp24);min-height:64px;color:#F5F2EB;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary:focus-visible{outline:none;box-shadow:inset 0 0 0 2px rgba(204,161,88,.6);border-radius:12px}
+summary::after{content:"";flex:none;width:9px;height:9px;border-right:1.5px solid #8C8880;border-bottom:1.5px solid #8C8880;transform:translateY(-3px) rotate(45deg);transition:transform 380ms cubic-bezier(.22,1,.36,1),border-color 300ms var(--ease)}
+.faq details:hover summary::after{border-color:var(--gold)}
+.faq details.on summary::after{border-color:var(--gold);transform:translateY(2px) rotate(-135deg)}
+.faq-toggle{align-self:flex-start;margin-top:var(--sp12)}
+.faq-toggle i{font-size:16px}
+details p{color:#B9B5AD;padding:0 var(--sp24) var(--sp24);max-width:620px;line-height:1.6}
+/* the card's colour change and the chevron turn are short and user-started, so they play with reduced motion on too */
+@media(prefers-reduced-motion:reduce){
+  .js .faq details.reveal{transition:opacity 500ms var(--ease),border-color 320ms var(--ease),background-color 320ms var(--ease),box-shadow 320ms var(--ease)!important}
+  .faq summary::after{transition:transform 380ms cubic-bezier(.22,1,.36,1),border-color 300ms var(--ease)!important}
+}
+
+/* visit: pinned stacked cards (static list until script.js turns on .is-stacked) */
+.card{background:var(--s1);border:1px solid var(--line);border-radius:16px;padding:var(--sp24)}
+.stack-pin{max-width:var(--wrap);margin:0 auto;padding:var(--sp96) var(--sp64);display:flex;flex-direction:column;gap:var(--sp40)}
+.stack-head{display:flex;flex-direction:column;align-items:center;gap:var(--sp12);text-align:center}
+.stack{display:flex;flex-direction:column;gap:var(--sp24)}
+.scard{background:var(--s1);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 -24px 48px rgba(0,0,0,.55);transform-origin:50% 0}
+.scard-in{position:relative;display:grid;grid-template-columns:5fr 6fr;height:100%}
+.scard-visual{position:relative;background:var(--s0);box-shadow:inset -1px 0 0 var(--line);display:grid;place-items:center;padding:var(--sp32);overflow:hidden;min-height:360px}
+.scard-copy{position:relative;z-index:1;padding:var(--sp48);display:flex;flex-direction:column;justify-content:center;gap:var(--sp12);overflow:hidden}
+.scard-tag{color:var(--gold)}
+.scard-sub{color:var(--gold);margin-top:calc(var(--sp4) * -1)}
+.scard-text{color:var(--tx2);max-width:440px}
+.scard-copy .row{margin-top:var(--sp12)}
+.scard-num{position:absolute;right:var(--sp32);bottom:calc(var(--sp24) * -1);font-size:160px;line-height:1;font-weight:600;letter-spacing:-.04em;color:rgba(239,233,222,.035);pointer-events:none;user-select:none}
+/* 01 social */
+.profile{width:min(300px,100%);background:var(--s1);border:1px solid var(--line2);border-radius:16px;padding:var(--sp12);display:flex;flex-direction:column;gap:var(--sp12)}
+.profile-top{display:flex;align-items:center;gap:var(--sp12)}
+.profile-top>div{flex:1;min-width:0}
+.avatar{width:40px;height:40px;border-radius:50%;background:var(--s0);border:1px solid var(--gold-line);display:grid;place-items:center;color:var(--gold);flex:none}
+.avatar img{width:32px;height:auto;display:block}
+.handle{color:var(--mut)}
+.follow{background:var(--gold);color:#000;border-radius:6px;padding:var(--sp4) var(--sp12)}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp4)}
+.post{position:relative;aspect-ratio:1;border-radius:4px;background:var(--s2);display:grid;place-items:center;color:var(--mut);overflow:hidden}
+.post:nth-child(3n+2){background:var(--s3)}
+.post img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 500ms var(--ease)}
+.profile:hover .post img{transform:none}.post:hover img{transform:scale(1.06)}
+.post.hot{color:var(--gold);background:#1d1a12}
+.post i{position:absolute;right:4px;top:4px;font-size:12px;color:#fff;filter:drop-shadow(0 1px 3px rgba(0,0,0,.8))}
+.float{position:absolute;display:inline-flex;align-items:center;gap:var(--sp8);padding:var(--sp4) var(--sp12);border-radius:8px;background:var(--s2);border:1px solid var(--line2);color:var(--tx);white-space:nowrap}
+.float i{font-size:16px;color:var(--gold)}
+.f1{left:var(--sp24);top:var(--sp32)}.f2{right:var(--sp24);bottom:var(--sp32)}
+/* 02 map */
+.scard-visual.map{padding:0;background:#e8eaed}
+.gpin{position:absolute;left:50%;top:50%;z-index:1;width:27px;height:43px;transform:translate(-50%,-100%);pointer-events:none}
+.gpin svg{display:block;width:100%;height:100%;filter:drop-shadow(0 2px 2px rgba(0,0,0,.3))}
+.gpin b{position:absolute;right:31px;top:4px;white-space:nowrap;font:600 15px/1.2 Roboto,Arial,var(--font),sans-serif;color:#C5221F;text-shadow:0 0 2px #fff,0 0 2px #fff,0 0 3px #fff,0 0 4px #fff}
+.gcredit{position:absolute;right:6px;bottom:4px;z-index:1;font:500 11px/1.3 Roboto,Arial,sans-serif;color:#3c4043;background:rgba(255,255,255,.75);padding:1px 6px;border-radius:2px;pointer-events:none}
+[dir=rtl] .gcredit{right:auto;left:6px}
+.scard-visual.map.live{cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.scard-visual.map.live.dragging{cursor:grabbing}
+.mstage{position:absolute;left:0;top:0;width:896px;height:629px;transform-origin:0 0;will-change:transform}
+.mstage .map-img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.mstage .gpin.flip b{right:auto;left:31px}
+.mstage .gpin{left:354px;top:263px;transform:translate(-50%,-100%) scale(var(--iz,1));transform-origin:50% 100%}
+.mzoom{position:absolute;z-index:2;right:10px;bottom:28px;display:flex;flex-direction:column;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.3);overflow:hidden}
+.mzoom button{width:40px;height:40px;border:0;background:#fff;color:#3c4043;font:500 22px/1 Roboto,Arial,sans-serif;cursor:pointer}
+.mzoom button+button{box-shadow:inset 0 1px 0 #e6e6e6}
+.mzoom button:hover{background:#f1f3f4}
+.mzoom button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+[dir=rtl] .mzoom{right:auto;left:10px}
+.map-frame{position:absolute;inset:0;z-index:1;width:100%;height:100%;border:0;display:block}
+.map-art,.map-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.m-land{fill:#0e0d09}.m-park{fill:#15140d}.m-water{fill:#0f1214}
+/* real streets around the showroom (OpenStreetMap): main roads, connecting avenues, side streets */
+.m-road path{fill:none;stroke:#3a342a;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.m-mid path{fill:none;stroke:#2a261f;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.m-street path{fill:none;stroke:#1f1c17;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.m-rlabel{font-family:var(--font);font-size:10px;font-weight:600;letter-spacing:.04em;fill:#8a7d62;paint-order:stroke;stroke:#0e0d09;stroke-width:3px}
+.m-marks circle{fill:#0e0d09;stroke:var(--gold);stroke-width:1.5}
+.m-marks text{font-family:var(--font);font-size:10.5px;font-weight:500;fill:#cfc6b4;paint-order:stroke;stroke:#0e0d09;stroke-width:3.5px}
+@media(max-width:560px){.m-marks text{font-size:13px}.m-rlabel{font-size:12px}}   /* the map is drawn smaller on phones */
+.m-pin path{fill:var(--gold)}.m-dot{fill:#0e0d09}.m-halo{fill:var(--gold-soft);stroke:var(--gold-line)}
+.map-chip{position:absolute;left:50%;top:calc(50% + var(--sp24));transform:translateX(-50%);display:inline-flex;align-items:center;gap:var(--sp8);background:var(--s1);border:1px solid var(--line2);border-radius:8px;padding:var(--sp4) var(--sp12);white-space:nowrap}
+.facts{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;margin-top:var(--sp8)}
+.facts div{padding:var(--sp12) var(--sp16);display:flex;flex-direction:column;gap:var(--sp4)}
+.facts div+div{box-shadow:inset 0 1px 0 var(--line)}
+.facts dt{display:flex;align-items:center;gap:var(--sp8);color:var(--mut)}
+.facts dt i{font-size:16px;color:var(--gold)}
+.facts dd{margin:0}.facts .near{color:var(--mut)}
+/* 03 visit */
+.scard-visual.visit{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--sp12);text-align:center}
+.visit-k{color:var(--gold);border:1px solid var(--gold-line);border-radius:4px;padding:var(--sp2) var(--sp8)}
+.visit-art{width:80%;color:var(--gold);margin:var(--sp16) 0}
+.visit-sub{color:var(--mut)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp12)}
+.form-row>div{display:flex;flex-direction:column;gap:var(--sp8)}
+/* progress */
+.stack-progress{display:none;align-items:center;justify-content:center;gap:var(--sp16);color:var(--tx2)}
+.sdots{display:flex;gap:var(--sp8)}
+.sdot{width:8px;height:8px;border-radius:4px;border:0;padding:0;background:var(--s3);cursor:pointer;transition:width var(--fast) var(--ease),background-color var(--fast) var(--ease)}
+.sdot.on{width:24px;background:var(--gold)}
+/* stacked mode (desktop). The pinned frame clips everything outside it, so waiting cards (parked just below the frame)
+   can never peek out, before, during or after the pin. Spacing scales with the screen height so the text always fits. */
+.stack-sec.is-stacked{height:calc(100svh + var(--run,0px))}
+.is-stacked .stack-pin{position:sticky;top:0;height:100svh;overflow:hidden;padding-top:clamp(72px,10vh,96px);padding-bottom:clamp(16px,2.6vh,24px);gap:clamp(16px,3vh,28px)}
+.is-stacked .stack{display:block;position:relative;flex:1;min-height:0;max-height:620px;width:100%;margin:clamp(20px,3.4vh,34px) auto 0}
+.is-stacked .scard{position:absolute;inset:0;will-change:transform;transform-origin:50% 0}
+/* GSAP moves these every frame: CSS transitions on them must never delay its changes */
+.stack-pin,.stack,.scard,.scard-in,.scard-visual,.scard-copy{transition:none!important}
+.is-stacked .scard-visual{min-height:0;padding:clamp(16px,3vh,32px);container-type:size}
+.is-stacked .scard-copy{padding:clamp(24px,4.2vh,48px) clamp(28px,3.6vw,56px);gap:clamp(6px,1.2vh,12px)}
+.is-stacked .scard-copy h3{font-size:clamp(30px,4.4vh,44px);line-height:1;text-transform:uppercase;letter-spacing:.01em}
+.is-stacked .scard-copy .row{margin-top:clamp(4px,1.2vh,12px)}
+.is-stacked .profile{width:min(300px,100cqw - 24px,(100cqh - 76px) * 1.42)}
+.is-stacked .visit-art{width:min(80%,(100cqh - 120px) * 2.6);margin:clamp(4px,1.6vh,16px) 0}
+.is-stacked .facts div{padding:clamp(8px,1.3vh,12px) var(--sp16)}
+.is-stacked .stack-progress{display:flex;position:relative;z-index:20}
+@media(max-height:820px){
+  .is-stacked .form{gap:var(--sp4)}.is-stacked .form label{margin-top:var(--sp4)}
+  .is-stacked .form input,.is-stacked .form select{min-height:40px;padding-top:6px;padding-bottom:6px}
+  .is-stacked .scard-text{font-size:13px;line-height:19px}
+  .is-stacked .float{display:none}
+}
+/* the stack also runs on narrower desktop windows (900-1024px) and short ones, always with the two-column card */
+.is-stacked .scard-in{grid-template-columns:5fr 6fr}
+.is-stacked .scard-visual{box-shadow:inset -1px 0 0 var(--line)}
+.is-stacked .scard-num{font-size:clamp(96px,18vh,160px)}
+/* a card's text sits in one block; script.js shrinks it a little (zoom) only when a short screen can't fit it */
+.scard-fit{display:flex;flex-direction:column;gap:inherit}
+@media(max-height:700px){
+  .is-stacked .stack-pin{padding-top:clamp(56px,9vh,72px)}
+  .is-stacked .stack-head h2{font-size:clamp(28px,5.6vh,44px)}
+  .is-stacked .stack-head .eyebrow{display:none}
+  .is-stacked .stack{margin-top:clamp(16px,3vh,24px)}
+}
+.form{display:flex;flex-direction:column;gap:var(--sp8)}
+label{color:var(--tx2);margin-top:var(--sp8)}label:first-child{margin-top:0}
+input,select{background:var(--s2);border:1px solid var(--line2);border-radius:8px;padding:var(--sp8) var(--sp12);min-height:44px;font-size:16px;line-height:24px;width:100%;transition:border-color var(--fast) var(--ease)}
+input:hover,select:hover{border-color:rgba(239,233,222,.24)}
+input:focus-visible,select:focus-visible{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-soft)}
+input[aria-invalid=true]{border-color:var(--err)}.err{color:var(--err-tx)}.err:empty{display:none}.ok{color:var(--gold)}.ok:empty{display:none}
+.form .btn{margin-top:var(--sp12);align-self:flex-start}
+.form-row label{margin-top:0}
+/* name and phone: outlined gold fields whose label sits inside the box, then lifts onto the top edge when you click in
+   or type, and stays there while the field has text */
+.ffield{--half:22px;position:relative;margin-top:var(--sp8)}
+.ffield input{background:transparent;border-color:rgba(204,161,88,.25);color:#F5F2EB;caret-color:var(--gold);
+  transition:border-color 240ms var(--ease),box-shadow 240ms var(--ease)}
+.ffield input::placeholder{color:transparent}
+.ffield input:hover{border-color:rgba(204,161,88,.45)}
+.ffield input:focus,.ffield input:focus-visible{outline:none;border-color:#CCA158;box-shadow:0 0 0 3px rgba(204,161,88,.14),0 0 18px rgba(204,161,88,.12)}
+.ffield label{position:absolute;left:9px;top:var(--half);z-index:1;padding:0 4px;border-radius:4px;color:#969189;line-height:20px;pointer-events:none;
+  transform:translateY(-50%);transform-origin:0 50%;background:transparent;
+  transition:transform 260ms var(--ease),color 200ms var(--ease),background-color 0s linear 260ms}
+.ffield:focus-within label,.ffield:has(input:not(:placeholder-shown)) label{transform:translateY(calc(-50% - var(--half))) scale(.8);background-color:var(--s1);
+  transition:transform 260ms var(--ease),color 200ms var(--ease),background-color 0s}
+.ffield:focus-within label{color:#CCA158}
+.ffield input[aria-invalid=true]{border-color:var(--err)}
+.ffield:has(input[aria-invalid=true]) label{color:var(--err-tx)}
+.form .ffield label{margin:0}
+@media(max-height:820px){.is-stacked .ffield{--half:20px}}   /* the fields are 40px tall there */
+/* a short, user-started movement: it plays with reduced motion on too */
+@media(prefers-reduced-motion:reduce){
+  .ffield label{transition:transform 260ms var(--ease),color 200ms var(--ease),background-color 0s linear 260ms!important}
+  .ffield:focus-within label,.ffield:has(input:not(:placeholder-shown)) label{transition:transform 260ms var(--ease),color 200ms var(--ease),background-color 0s!important}
+  .ffield input{transition:border-color 240ms var(--ease),box-shadow 240ms var(--ease)!important}
+}
+
+.footer{max-width:var(--wrap);margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:var(--sp16);flex-wrap:wrap;padding:var(--sp32) var(--sp64);color:var(--mut);box-shadow:inset 0 1px 0 var(--line)}
+.links{display:flex;gap:var(--sp16)}
+.link{background:none;border:0;color:var(--mut);cursor:pointer;min-height:44px;transition:color var(--fast) var(--ease)}.link:hover{color:var(--tx)}
+
+/* dialogs: the spec sheet */
+dialog{margin:auto;background:var(--s1);color:var(--tx);border:1px solid var(--line2);border-radius:16px;padding:0;width:min(880px,calc(100% - var(--sp32)));max-height:calc(100svh - var(--sp32));overflow:auto;overscroll-behavior:contain}
+dialog[open]{animation:dlgIn 400ms var(--ease) both}
+dialog::backdrop{background:rgba(0,0,0,.8);animation:fade 300ms var(--ease) both}
+@keyframes dlgIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}@keyframes fade{from{opacity:0}}
+.dlg{padding:var(--sp24);display:flex;flex-direction:column;gap:var(--sp24)}
+.dlg-top{display:flex;justify-content:space-between;align-items:center;gap:var(--sp12)}
+.dlg-top .meta{display:flex;align-items:center;gap:var(--sp12)}
+.dlg-nav{display:flex;gap:var(--sp8)}
+.gbtn{width:44px;height:44px;border-radius:8px;border:1px solid var(--line2);background:var(--s2);cursor:pointer;display:grid;place-items:center;font-size:18px;transition:border-color var(--fast) var(--ease),background-color var(--fast) var(--ease)}
+.gbtn:hover{border-color:var(--gold-line);background:var(--s3)}.gbtn:active{transform:scale(.97)}
+/* car details popup: gold previous / next / close buttons and a thin gold scrollbar */
+dialog .gbtn{color:var(--gold);border-color:var(--gold-line);background:rgba(204,161,88,.06)}
+dialog .gbtn:hover{background:var(--gold);border-color:var(--gold);color:#0A0A0A}
+dialog{scrollbar-width:thin;scrollbar-color:#CCA158 transparent}
+dialog::-webkit-scrollbar{width:8px}
+dialog::-webkit-scrollbar-track{background:transparent}
+dialog::-webkit-scrollbar-thumb{background:#CCA158;border-radius:999px;border:2px solid var(--s1)}
+dialog::-webkit-scrollbar-thumb:hover{background:#D8B475}
+.dlg-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:var(--sp24);align-items:stretch}
+.dlg-grid .car-img{aspect-ratio:auto;min-height:240px;color:var(--gold)}
+.dlg-info{display:flex;flex-direction:column;gap:var(--sp8);justify-content:center}
+.dlg-info .sub{color:var(--tx2)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:8px;margin-top:var(--sp16)}
+.tile{padding:var(--sp12);display:flex;flex-direction:column;gap:var(--sp4)}
+.tile+.tile{box-shadow:inset 1px 0 0 var(--line)}
+.tile b{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:24px;line-height:32px;font-weight:500}
+.tile:first-child b{color:var(--gold)}
+.tile span{color:var(--mut)}
+.spec-groups{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp24)}
+.spec-group h3{color:var(--mut);margin-bottom:var(--sp8)}
+.spec-group dl{border:1px solid var(--line);border-radius:8px}
+.spec-group div{display:flex;justify-content:space-between;gap:var(--sp16);padding:var(--sp8) var(--sp12)}
+.spec-group div+div{box-shadow:inset 0 1px 0 var(--line)}
+.spec-group dt{color:var(--tx2)}.spec-group dd{margin:0;text-align:right}
+.dlg-cta{display:flex;gap:var(--sp12);flex-wrap:wrap;padding-top:var(--sp8)}
+.dwrap{padding:var(--sp24);display:flex;flex-direction:column;gap:var(--sp16);position:relative}
+.dwrap .close{position:absolute;right:var(--sp16);top:var(--sp16)}
+.dwrap p{color:var(--tx2);max-width:560px}
+
+/* scroll reveal */
+/* only hidden once script is known to run (html.js), so the page never stays blank */
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity var(--slow) var(--ease),transform var(--slow) var(--ease),border-color var(--fast) var(--ease),background-color var(--fast) var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+/* pull to refresh: the browser's own pull-to-refresh is switched off so ours drives the gesture;
+   the strip sits under the header and opens as the page is pulled down */
+html,body{overscroll-behavior-y:contain}
+.ptr{position:fixed;left:0;right:0;top:0;height:0;overflow:hidden;z-index:150;pointer-events:none}   /* above the header, which slides down with the page */
+.ptr canvas{display:block}
+/* load intro: the nav settles in, the hero car draws itself once, then its callouts appear */
+.js .nav{animation:navIn 500ms var(--ease) both}
+@keyframes navIn{from{opacity:0;transform:translateY(-8px)}}
+@property --draw{syntax:'<number>';inherits:true;initial-value:0}
+#car [pathLength]{stroke-dasharray:1;stroke-dashoffset:var(--draw,0)}
+.js .sheet .drawing .body{--draw:1;transition:--draw 1100ms var(--ease) 150ms}
+.js .sheet.in .drawing .body{--draw:0}
+.js #callouts{opacity:0;transition:opacity 500ms var(--ease) 700ms}
+.js .sheet.in #callouts{opacity:1}
+
+@media(max-width:1024px){
+  .nav-in{padding:0 var(--sp24)}
+  .hero{grid-template-columns:1fr;padding:var(--sp96) var(--sp24) var(--sp48);min-height:auto;gap:var(--sp48)}
+  .grid{grid-template-columns:1fr 1fr}
+  .section{padding-left:var(--sp24);padding-right:var(--sp24)}
+  .faq-sec{grid-template-columns:1fr;gap:0}.faq-sec .sec-head{position:static}
+  .stack-pin{padding:var(--sp80) var(--sp24)}
+  .scard-in{grid-template-columns:1fr}.scard-visual{min-height:280px;box-shadow:inset 0 -1px 0 var(--line)}
+  .scard-copy{padding:var(--sp32) var(--sp24)}.scard-num{font-size:96px;bottom:calc(var(--sp12) * -1)}
+  .footer{padding:var(--sp32) var(--sp24)}
+}
+@media(max-width:720px){
+  .nav-cta{display:none}.nav-in{padding:0 var(--sp16);height:64px}
+  .hero{padding:var(--sp96) var(--sp16) var(--sp48)}
+  .section{padding:var(--sp64) var(--sp16)}.stack-pin{padding:var(--sp64) var(--sp16)}.form-row{grid-template-columns:1fr}.brands{padding:var(--sp64) 0}.brands-head{margin-bottom:var(--sp40)}
+  .brand-item{padding:0 var(--sp32);gap:var(--sp12)}.mark{width:36px;height:36px}.footer{padding:var(--sp24) var(--sp16)}
+  
+  .grid,.steps,.dlg-grid,.spec-groups{grid-template-columns:1fr}
+  .steps li+li{box-shadow:inset 0 1px 0 var(--line)}.steps h3{margin-top:var(--sp8)}
+  .sheet{padding:var(--sp16)}
+  .drawing .k{font-size:18px}.drawing .v{font-size:20px}
+  .row .btn{flex:1}
+  .dlg{padding:var(--sp16)}
+  .tile b{font-size:20px;line-height:28px}
+}
+@media(prefers-reduced-motion:reduce){
+  /* a true zero: a tiny non-zero duration turns every style change on every element into a mini transition,
+     which made the pinned card stack lag a frame behind GSAP (the first layer jumped, the last one blinked) */
+  *{transition-duration:0s!important;transition-delay:0s!important;animation:none!important}
+  /* WhatsApp nudge: a single short, one-time movement, so it still plays here */
+  .wa-float.pop{animation:waPop 900ms var(--ease) both!important}
+  .wa-float.pop::after{animation:waRing 1100ms var(--ease) 350ms both!important}
+  .wa-bubble{transition:opacity 400ms var(--ease),translate 450ms var(--ease),scale 450ms var(--ease),visibility 0s linear 450ms!important}
+  .wa-bubble.show{transition:opacity 400ms var(--ease),translate 450ms var(--ease),scale 450ms var(--ease)!important}
+  /* reduced motion: no movement, but keep a soft opacity fade so the page still feels alive */
+  .js .reveal{transform:none!important;transition:opacity 500ms var(--ease)!important}
+  .js .sheet .drawing .body{--draw:0}
+  .js #callouts{transition:opacity 500ms var(--ease) 200ms!important}
+  .sk-shape{animation:skPulse 1.6s ease-in-out infinite!important} /* a colour pulse, no movement */
+  .track{animation:marquee 40s linear infinite!important} /* the makes strip keeps gliding: slow, steady, no sudden movement */
+}
+
+/* ---------- merged sections ---------- */
+.ph,.ph-fill{display:inline-block;width:1em;height:1em;flex:none;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat}
+.nav-links{display:flex;gap:var(--sp24);color:var(--tx2)}
+.nav-links a{transition:color var(--fast) var(--ease);white-space:nowrap}.nav-links a:hover{color:var(--gold)}
+
+/* hero */
+.hero{position:relative;display:block;max-width:none;min-height:0;margin:0;padding:0}
+.hero-media{position:absolute;inset:0 0 88px 36%;overflow:hidden}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:60% 66%;display:block;-webkit-mask-image:linear-gradient(90deg,transparent,#000 42%),linear-gradient(0deg,transparent,#000 22%);mask-image:linear-gradient(90deg,transparent,#000 42%),linear-gradient(0deg,transparent,#000 22%);-webkit-mask-composite:source-in;mask-composite:intersect}
+.hero-tag{position:absolute;right:var(--sp64);top:calc(var(--sp96) + var(--sp16));display:inline-flex;align-items:center;gap:var(--sp12);padding:var(--sp8) var(--sp12);background:rgba(0,0,0,.66);border:1px solid var(--line2);border-radius:8px;cursor:pointer;color:var(--tx);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:border-color var(--fast) var(--ease)}
+.hero-tag:hover{border-color:var(--gold-line)}.hero-tag .ph{color:var(--gold)}
+.hero-in{position:relative;max-width:var(--wrap);margin:0 auto;padding:calc(var(--sp96) + var(--sp64)) var(--sp64) 0;display:flex;flex-direction:column;gap:var(--sp64)}
+.hero-copy{max-width:600px}
+.hero-copy .lead{max-width:440px}
+.finder{position:relative;z-index:5;display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr auto;gap:var(--sp12);align-items:end;background:var(--s0);border:1px solid var(--gold-line);border-radius:16px;padding:var(--sp16) var(--sp24) var(--sp24);box-shadow:0 24px 64px rgba(0,0,0,.6)}
+.finder-title{grid-column:1/-1;color:var(--gold);letter-spacing:.08em;text-transform:uppercase}
+.fld{position:relative;display:flex;flex-direction:column;gap:var(--sp4);min-width:0}
+.fld label{margin:0;color:var(--mut)}
+.q-wrap{position:relative;display:flex;align-items:center}
+.q-wrap .ph{position:absolute;left:var(--sp12);color:var(--gold);font-size:18px;pointer-events:none}
+.q-wrap input{padding-left:40px}
+input[type=search]::-webkit-search-cancel-button{filter:invert(.7)}
+input::placeholder{color:var(--mut)}
+select{min-width:0;text-overflow:ellipsis}
+.finder-go{min-width:136px;font-variant-numeric:tabular-nums}
+.suggest{position:absolute;left:0;right:0;top:calc(100% + var(--sp4));z-index:30;list-style:none;padding:var(--sp4);background:var(--s2);border:1px solid var(--line2);border-radius:8px;box-shadow:0 16px 40px rgba(0,0,0,.6)}
+.suggest li[role=option]{display:flex;justify-content:space-between;gap:var(--sp12);padding:var(--sp8) var(--sp12);border-radius:6px;cursor:pointer}
+.suggest li span+span{color:var(--mut);white-space:nowrap}
+.suggest li[role=option]:hover,.suggest li[aria-selected=true]{background:var(--s3)}
+.suggest .none{padding:var(--sp8) var(--sp12);color:var(--tx2)}
+
+/* section header with actions */
+.sec-row{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--sp16);flex-wrap:wrap;margin-bottom:var(--sp40)}
+.sec-row .sec-head{margin:0;align-items:flex-start}
+.rail-nav{display:flex;align-items:center;gap:var(--sp8)}
+.rail-nav .gbtn{width:36px;height:36px;color:var(--tx)}
+.section .sec-head .eyebrow{align-self:flex-start}
+
+/* new arrivals rail */
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - var(--sp24)*2)/3);gap:var(--sp24);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:var(--sp4)}
+.rail::-webkit-scrollbar{display:none}
+.rail .car{scroll-snap-align:start}
+
+/* about band */
+.about{display:grid;grid-template-columns:1fr 1fr;background:var(--s0);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about-img{position:relative;min-height:480px;overflow:hidden}
+.about-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.about-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:var(--sp16);padding:var(--sp64);max-width:640px}
+.about-facts{display:flex;gap:var(--sp40);margin-top:var(--sp16);flex-wrap:wrap}
+.about-facts div{display:flex;flex-direction:column;gap:var(--sp4)}
+.about-facts dd{margin:0;font-size:36px;line-height:40px;color:var(--gold)}
+.about-facts dt{color:var(--mut)}
+
+/* featured */
+.feat{display:grid;grid-template-columns:3fr 2fr;gap:var(--sp24);align-items:stretch}
+.feat .sheet{justify-content:space-between;min-width:0}
+.feat-side{display:flex;flex-direction:column;gap:var(--sp24);min-width:0}
+.car.mini{flex:1;flex-direction:row;align-items:stretch;gap:var(--sp8)}
+.car.mini .car-img{flex:0 0 38%;aspect-ratio:auto;min-height:0}
+.car.mini .car-img .status{display:none}
+.car.mini .car-body{min-width:0;padding:var(--sp8) var(--sp8) var(--sp8) var(--sp12);gap:var(--sp12)}
+.car.mini .sub{display:none}
+.car.mini .figs div{padding:var(--sp4) var(--sp8)}
+.sheet-more{min-height:0;color:var(--gold);padding:0}
+.sheet-more:hover{color:var(--gold-hi)}
+
+/* showroom tools */
+.tools{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:var(--sp12);margin-bottom:var(--sp16)}
+.tools-2{display:flex;align-items:center;gap:var(--sp16);flex-wrap:wrap;margin-bottom:var(--sp32)}
+.tools-2 .filters{margin:0}
+.avail{display:inline-flex;align-items:center;gap:var(--sp8);margin:0;cursor:pointer;color:var(--tx2);min-height:36px}
+.avail input{width:18px;height:18px;min-height:0;padding:0;accent-color:var(--gold);flex:none}
+.count{margin-left:auto;color:var(--tx2)}
+.clear{min-height:36px;color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.empty{display:flex;flex-direction:column;align-items:center;gap:var(--sp16)}
+
+/* services: ruled rows */
+
+/* footer */
+.foot{background:var(--s0);border-top:1px solid var(--line);margin-top:var(--sp48)}
+.foot-in{max-width:var(--wrap);margin:0 auto;padding:var(--sp64) var(--sp64) var(--sp48);display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--sp48)}
+.foot-brand{display:flex;flex-direction:column;align-items:flex-start;gap:var(--sp12)}
+.foot-brand p:not(.heading-4){color:var(--tx2);max-width:320px}
+.foot-brand .btn{margin-top:var(--sp8)}
+.foot-social{display:flex;flex-wrap:wrap;gap:var(--sp8)}   /* Message us, Instagram, TikTok side by side; they wrap on narrow phones */
+.foot-social .btn{margin-top:var(--sp8)}
+.foot-col{display:flex;flex-direction:column;gap:var(--sp8);color:var(--tx2);align-items:flex-start}
+.foot-col h2{color:var(--gold);margin-bottom:var(--sp4)}
+.foot-col a{transition:color var(--fast) var(--ease)}.foot-col a:hover{color:var(--gold)}
+
+.ok a{text-decoration:underline;text-underline-offset:3px}
+
+/* WhatsApp button */
+.wa-float{position:fixed;right:calc(var(--sp24) + env(safe-area-inset-right,0px));bottom:calc(var(--sp24) + env(safe-area-inset-bottom,0px));z-index:95;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#000;font-size:28px;box-shadow:0 8px 24px rgba(0,0,0,.5);transition:background-color var(--fast) var(--ease),transform var(--fast) var(--ease)}
+.wa-float:hover{background:var(--gold-hi);transform:translateY(-2px)}
+/* WhatsApp nudge after 10s: the button pops once (scale/translate, so the hover transform is untouched),
+   a gold ring spreads from it, and a bubble rises just above it. Transform and opacity only. */
+:root{--wa-x:calc(var(--sp24) + env(safe-area-inset-right,0px));--wa-y:calc(var(--sp24) + env(safe-area-inset-bottom,0px));--wa-s:56px}
+.wa-float::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--gold);opacity:0;pointer-events:none}
+/* hidden until the 10s mark (only when script runs, so it never stays hidden without it), then pops in and stays */
+.js .wa-float:not(.in){opacity:0;scale:.5;translate:0 18px;visibility:hidden;pointer-events:none}
+.wa-float.pop{animation:waPop 900ms var(--ease) both}
+.wa-float.pop::after{animation:waRing 1100ms var(--ease) 350ms both}
+@keyframes waPop{0%{opacity:0;scale:.5;translate:0 18px}55%{opacity:1;scale:1.14;translate:0 -6px}75%{scale:.96;translate:0 0}90%{scale:1.03}100%{opacity:1;scale:1;translate:0 0}}
+@keyframes waRing{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+.wa-bubble{position:fixed;z-index:95;right:var(--wa-x);bottom:calc(var(--wa-y) + var(--wa-s) + 14px);
+  max-width:min(250px,calc(100vw - 32px));padding:10px 14px;border-radius:14px 14px 4px 14px;
+  background:#1C1A16;border:1px solid var(--gold-line);color:var(--tx);font-size:14px;line-height:20px;font-weight:500;text-wrap:balance;
+  box-shadow:0 12px 32px rgba(0,0,0,.55);transform-origin:calc(100% - var(--wa-s) / 2) 100%;
+  opacity:0;translate:0 10px;scale:.96;visibility:hidden;pointer-events:none;
+  transition:opacity 400ms var(--ease),translate 450ms var(--ease),scale 450ms var(--ease),visibility 0s linear 450ms}
+.wa-bubble::after{content:"";position:absolute;right:calc(var(--wa-s) / 2 - 7px);bottom:-7px;width:12px;height:12px;background:#1C1A16;
+  border-right:1px solid var(--gold-line);border-bottom:1px solid var(--gold-line);transform:rotate(45deg)}
+.wa-bubble.show{opacity:1;translate:0 0;scale:1;visibility:visible;pointer-events:auto;transition-delay:0s}
+.wa-bubble:hover{border-color:var(--gold)}
+
+@media(max-width:1024px){.nav-links{display:none}}
+@media(max-width:1024px){
+  .menu-btn{display:block}
+  .hero-media{inset:0 0 auto 0;height:62vw;max-height:560px}
+  .hero-media img{-webkit-mask-image:linear-gradient(0deg,transparent,#000 40%);mask-image:linear-gradient(0deg,transparent,#000 40%);-webkit-mask-composite:source-over;mask-composite:add}
+  .hero-tag{right:var(--sp24);top:calc(var(--sp80) + var(--sp8))}
+  .hero-in{padding:min(calc(62vw - 64px),496px) var(--sp24) 0;gap:var(--sp40)}
+  .finder{grid-template-columns:1fr 1fr 1fr}
+  .fld-q,.finder-go{grid-column:1/-1}
+  .rail{grid-auto-columns:calc((100% - var(--sp24))/2)}
+  .about{grid-template-columns:1fr}.about-img{min-height:0;aspect-ratio:16/10}.about-copy{padding:var(--sp48) var(--sp24);max-width:none}
+  .feat{grid-template-columns:1fr}.feat-side{flex-direction:row}.car.mini{flex-direction:column}.car.mini .car-img{flex:none;aspect-ratio:16/10}
+  .tools{grid-template-columns:1fr 1fr}.tools .fld-q{grid-column:1/-1}
+  .foot-in{padding:var(--sp48) var(--sp24);grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}
+}
+@media(max-width:720px){
+  .hero-tag{right:var(--sp16);top:auto;bottom:18%}
+  .hero-in{padding:min(calc(62vw - 40px),496px) var(--sp16) 0}
+  .finder{grid-template-columns:1fr 1fr;padding:var(--sp16)}
+  .finder .fld:nth-of-type(4){grid-column:1/-1}
+  .rail{grid-auto-columns:86%;gap:var(--sp16)}
+  .about-copy{padding:var(--sp40) var(--sp16)}
+  .about-facts{gap:var(--sp24)}.about-facts dd{font-size:28px;line-height:32px}
+  .feat-side{flex-direction:column}
+  .tools .fld:last-child{grid-column:1/-1}
+  .tools .fld:nth-child(4){grid-column:1/-1}
+  .count{margin-left:0}
+  .foot-in{padding:var(--sp40) var(--sp16);gap:var(--sp32)}
+  .foot{margin-top:var(--sp24)}
+  .wa-float{right:calc(var(--sp16) + env(safe-area-inset-right,0px));bottom:calc(var(--sp16) + env(safe-area-inset-bottom,0px));width:48px;height:48px;font-size:24px}
+  :root{--wa-x:calc(var(--sp16) + env(safe-area-inset-right,0px));--wa-y:calc(var(--sp16) + env(safe-area-inset-bottom,0px));--wa-s:48px}
+  .wa-bubble{max-width:min(220px,calc(100vw - 32px));font-size:13px;line-height:18px;padding:9px 12px}
+}
+
+/* polish after review */
+.car-img{color:#A5844A}
+@media(max-width:720px){
+  .hero-media{height:80vw}
+  .hero-tag{bottom:24px}
+  .hero-in{padding-top:calc(80vw + 4px)}
+  .foot .footer{padding-right:calc(var(--sp16) + 56px)}
+}
+
+/* type: hero in Barlow Condensed Bold, section tabs in Barlow Bold */
+:root{--hero-font:'Barlow Condensed','Arial Narrow',Arial,sans-serif;--tab-font:'Barlow',Arial,sans-serif;--gold-dark:#A67C35;--gold-light:#F0D9A6}
+.nav-links a,.mobile-menu a{font-family:var(--tab-font);font-weight:700}
+.nav-links a{font-size:15px;letter-spacing:.01em}
+/* hero text: a soft band of light gold drifts slowly through dark gold */
+.hero-copy h1,.finder-title{font-family:var(--hero-font);font-weight:700}
+.hero-copy .lead,#countProof{font-family:var(--font);font-weight:500}   /* descriptions stay in Inter */
+.hero-copy h1,.hero-copy .lead,#countProof{color:var(--gold);background:linear-gradient(100deg,var(--gold-dark) 0%,var(--gold) 25%,var(--gold-light) 50%,var(--gold) 75%,var(--gold-dark) 100%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:goldDrift 9s ease-in-out infinite alternate}
+.hero-copy h1{font-size:clamp(60px,7.6vw,108px);line-height:.98;letter-spacing:0;max-width:640px;padding-bottom:.06em}
+.hero-copy .lead{font-size:18px;line-height:27px}
+#countProof{font-size:17px;line-height:22px}
+.finder-title{font-size:15px;line-height:20px}
+@keyframes goldDrift{from{background-position:0% 50%}to{background-position:100% 50%}}
+@media(prefers-reduced-motion:reduce){.hero-copy h1,.hero-copy .lead,#countProof{background-position:50% 50%}}
+
+/* header: no bar at all, only the text floats over the page; it slides away while scrolling down so it never sits on top of content */
+.nav{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:0;pointer-events:none;transition:translate 320ms var(--ease)}
+.nav a,.nav button{pointer-events:auto}
+.nav.away{translate:0 -100%}
+.menu-open .nav{translate:none}
+.nav-links{gap:var(--sp32)}
+.nav-links a{font-size:18px;line-height:24px;color:var(--tx)}
+.nav-links a,.brand{text-shadow:0 1px 10px rgba(0,0,0,.85)}
+.menu-btn span{box-shadow:0 1px 6px rgba(0,0,0,.8)}
+
+/* header pill: rounded dark capsule with a hairline edge around the tabs; it stays on screen, so only the name steps aside on scroll */
+.nav-links{align-items:center;gap:var(--sp40);padding:14px 32px;border-radius:999px;background:rgba(9,10,13,.78);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);pointer-events:auto}
+.nav-links a{color:#fff;text-shadow:none}
+.nav-links a:hover{color:var(--gold-light)}
+/* tabs bar in black and gold, with the liquid gold pill (nav-liquid.js) sliding under the labels */
+.nav-links{position:relative;isolation:isolate;padding:18px 34px;border-radius:30px;background:#141414;border:1px solid rgba(204,161,88,.15);box-shadow:0 6px 18px rgba(0,0,0,.45);backdrop-filter:none;-webkit-backdrop-filter:none;transition:border-color 300ms var(--ease)}
+.nav-links.lit{border-color:rgba(204,161,88,.32)}
+.nav-links a{position:relative;z-index:1;color:#888;transition:none}
+.nav-links a:hover{color:#888}
+.nav-links a:focus-visible{outline:none}
+.nav-pill{position:absolute;left:0;top:6px;bottom:6px;width:86px;z-index:0;border-radius:999px;opacity:0;pointer-events:none;will-change:transform,width;
+  background:linear-gradient(90deg,#A8823F 0%,#CCA158 22%,#D9B878 50%,#CCA158 78%,#A8823F 100%);
+  box-shadow:inset 0 1px 0 rgba(255,240,210,.45),inset 0 -1px 0 rgba(90,64,20,.35)}
+.nav-pill::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:0 0 20px rgba(204,161,88,.55);opacity:var(--glow,0)}
+.brand{transition:opacity var(--fast) var(--ease),visibility var(--fast)}
+/* logo on the left of the header: sized by height, width follows; a soft shadow keeps the gold readable over the hero photo */
+.brand{display:flex;align-items:center;line-height:0}
+.brand-logo{display:block;height:68px;width:auto;filter:drop-shadow(0 2px 10px rgba(0,0,0,.75));transition:transform var(--fast) var(--ease),filter var(--fast) var(--ease)}
+.brand:hover .brand-logo{transform:translateY(-1px);filter:drop-shadow(0 2px 10px rgba(0,0,0,.75)) brightness(1.08)}
+@media(max-width:720px){.brand-logo{height:48px}}
+/* the header (and the logo in it) stays on screen while scrolling, on every screen size;
+   once scrolled, a soft black fade sits behind it so the logo stays readable over page content (no hard bar) */
+.nav.away{translate:none}
+.nav::before{content:"";position:absolute;inset:0 0 -32px;background:linear-gradient(180deg,rgba(0,0,0,.82),rgba(0,0,0,.55) 55%,transparent);opacity:0;transition:opacity 300ms var(--ease);pointer-events:none;z-index:-1}
+.nav.scrolled::before{opacity:1}
+
+/* icons: inline so they work without any external icon font */
+.ph-arrow-right{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M4 12h16M14 6l6 6-6 6%22/%3E%3C/svg%3E")}
+.ph-arrows-in-line-vertical{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M4 12h16M12 3v6M9 6.5 12 9l3-2.500M12 21v-6M9 17.500 12 15l3 2.500%22/%3E%3C/svg%3E")}
+.ph-arrows-out-line-vertical{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M4 12h16M12 9V3M9 5.500 12 3l3 2.500M12 15v6M9 18.500 12 21l3-2.500%22/%3E%3C/svg%3E")}
+.ph-caret-left{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m15 5-7 7 7 7%22/%3E%3C/svg%3E")}
+.ph-caret-right{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m9 5 7 7-7 7%22/%3E%3C/svg%3E")}
+.ph-chat-circle-dots{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M12 3.500a8.500 8.500 0 1 1-4 16l-4 1 1-4a8.500 8.500 0 0 1 7-13Z%22/%3E%3Cpath d=%22M8.500 12h.01M12 12h.01M15.500 12h.01%22/%3E%3C/svg%3E")}
+.ph-clock{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%228.500%22/%3E%3Cpath d=%22M12 7v5l3.500 2%22/%3E%3C/svg%3E")}
+.ph-facebook-logo{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%228.500%22/%3E%3Cpath d=%22M15 8h-1.500A1.500 1.500 0 0 0 12 9.500V20.500M9 13h6%22/%3E%3C/svg%3E")}
+.ph-instagram-logo{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Crect x=%223.500%22 y=%223.500%22 width=%2217%22 height=%2217%22 rx=%225%22/%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%223.800%22/%3E%3Cpath d=%22M17 7h.01%22/%3E%3C/svg%3E")}
+.ph-magnifying-glass{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2210.500%22 cy=%2210.500%22 r=%226.500%22/%3E%3Cpath d=%22m15.500 15.500 5 5%22/%3E%3C/svg%3E")}
+.ph-map-pin{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M12 21s7-6 7-11.500a7 7 0 1 0-14 0C5 15 12 21 12 21Z%22/%3E%3Ccircle cx=%2212%22 cy=%229.500%22 r=%222.500%22/%3E%3C/svg%3E")}
+.ph-map-trifold{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22m9 4-6 2.500v14L9 18l6 2.500 6-2.500V3.500L15 6 9 3.500ZM9 3.500V18M15 6v14.500%22/%3E%3C/svg%3E")}
+.ph-phone{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M5 4h3.500l1.500 4.500L8 10.500a12 12 0 0 0 5.500 5.500l2-2 4.500 1.500V19a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z%22/%3E%3C/svg%3E")}
+.ph-play-circle{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%228.500%22/%3E%3Cpath d=%22m10 8.500 5.500 3.500-5.500 3.500Z%22/%3E%3C/svg%3E")}
+.ph-tiktok-logo{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M14 3.500v11.500a4 4 0 1 1-4-4M14 3.500c.3 2.800 2.400 4.900 5.500 5%22/%3E%3C/svg%3E")}
+.ph-whatsapp-logo{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M12 3.200a8.800 8.800 0 1 1-4.300 16.500l-4.200 1.100 1.100-4.100A8.800 8.800 0 0 1 12 3.200Z%22/%3E%3Cpath d=%22M9 7.800c-.9.300-1.400 1.300-1.200 2.300.7 3 3 5.300 6 6.100 1 .2 2-.3 2.400-1.200.1-.4 0-.7-.3-.9l-1.700-.9c-.3-.1-.6 0-.8.2l-.6.7c-1.400-.6-2.500-1.700-3.100-3.100l.7-.6c.2-.2.300-.5.200-.8l-.8-1.700c-.2-.3-.5-.3-.8-.1Z%22/%3E%3C/svg%3E")}
+.ph-x{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%221.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22%3E%3Cpath d=%22M6 6l12 12M18 6 6 18%22/%3E%3C/svg%3E")}
+.ph-play{--i:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath d=%22M7 4.500v15l13-7.500Z%22 fill=%22%23000%22/%3E%3C/svg%3E")}
+
+/* ===== UI pass (2026-11-03): stock cards, one meaning per colour and corner, two fonts, clickable map.
+   Undo by restoring dealership0/backup-before-ui-5-8. ===== */
+/* two fonts only: Barlow Condensed for headings, Inter for everything else, numbers included (even-width digits) */
+:root{--mono:'Inter',system-ui,sans-serif;--tab-font:'Inter',system-ui,sans-serif}
+.nav-links a,.mobile-menu a{font-weight:600}
+.mono,.drawing text,.figs b,.tile b{font-feature-settings:"tnum" 1}
+
+/* corners: 8px inputs and small chips, 12px panels like the FAQ, 16px big cards, full pills for buttons and the header */
+.btn,.fbtn,.gbtn,.follow,.hero-tag,.nav-links{border-radius:999px}
+
+/* gold only marks what you can click or what is active; labels, icons and counters go quiet */
+.lot{color:var(--tx2);border-color:var(--line2)}
+.status::before{background:var(--tx)}
+.eyebrow,.finder-title,.scard-tag,.scard-sub,.foot-col h2{color:var(--tx2)}
+.rule{background:var(--line2)}
+.steps .num,.facts dt i,.float i,.q-wrap .ph,.hero-tag .ph{color:var(--mut)}
+.avatar{color:var(--tx2);border-color:var(--line2)}
+.post.hot{color:var(--tx2);background:var(--s2)}
+.visit-k{color:var(--tx2);border-color:var(--line2)}
+.about-facts dd,.tile:first-child b{color:var(--tx)}
+.finder{border-color:var(--line2)}
+.m-marks circle{stroke:#8C8880}
+
+/* stock cards: photo first; no photo shows a faint car behind a badge; price in gold; details brighten on hover */
+.car-img{color:rgba(204,161,88,.22)}
+.car:hover .car-img{color:rgba(204,161,88,.4)}
+.car-img:not(.has-photo){background:radial-gradient(120% 90% at 50% 100%,#1d1a14 0%,var(--s0) 70%)}
+.car-img:not(.has-photo) svg{grid-area:1/1}
+.soon{grid-area:1/1;align-self:center;justify-self:center;padding:var(--sp4) var(--sp12);border-radius:999px;background:rgba(10,10,10,.78);border:1px solid var(--line2);color:var(--tx2);white-space:nowrap;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.car-foot{display:flex;align-items:center;justify-content:space-between;gap:var(--sp12);margin-top:auto;padding-top:var(--sp4)}
+.car-foot .cta{margin-top:0}
+.price{color:var(--gold);white-space:nowrap}
+.car .figs{opacity:.72;transition:opacity 260ms var(--ease)}
+.car:hover .figs,.car:focus-visible .figs{opacity:1}
+@media(hover:none){.car .figs{opacity:1}}
+.car.mini .car-foot .price{font-size:14px}
+
+/* the whole map is a link to Google Maps */
+.map-link{position:absolute;inset:0;z-index:2;border-radius:inherit}
+.scard-visual.map:hover .m-pin{filter:brightness(1.15)}
+.map-link:focus-visible{outline:2px solid var(--gold);outline-offset:-4px}
+
+/* hover glow: a soft gold light follows the cursor inside cards, the stacked layers, questions and buttons (mouse only) */
+.car,.btn,.gbtn,.fbtn,.faq details{position:relative}
+.car::after,.scard::after,.faq details::after,.btn::after,.gbtn::after,.fbtn::after{content:"";position:absolute;inset:0;z-index:3;border-radius:inherit;pointer-events:none;opacity:0;mix-blend-mode:screen;
+  background:radial-gradient(var(--gr,260px) circle at var(--mx,50%) var(--my,50%),rgba(204,161,88,.16),transparent 65%);transition:opacity 300ms var(--ease)}
+.btn,.gbtn,.fbtn{--gr:90px}
+.btn-gold::after{background:radial-gradient(90px circle at var(--mx,50%) var(--my,50%),rgba(255,240,210,.45),transparent 65%)}
+.scard{--gr:420px}
+@media(hover:hover){
+  .car:hover::after,.scard:hover::after,.faq details:hover::after,.btn:hover::after,.gbtn:hover::after,.fbtn:hover::after{opacity:1}
+  .car:hover{box-shadow:0 0 0 1px rgba(204,161,88,.28),0 14px 40px rgba(204,161,88,.10)}
+  .scard:hover{box-shadow:0 -24px 48px rgba(0,0,0,.55),0 0 0 1px rgba(204,161,88,.25),0 0 46px rgba(204,161,88,.09)}
+  .faq details:hover{box-shadow:0 0 0 1px rgba(204,161,88,.18),0 10px 30px rgba(204,161,88,.07)}
+  .btn:hover,.fbtn:hover{box-shadow:0 0 18px rgba(204,161,88,.22)}
+  .btn-gold:hover{box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 0 22px rgba(204,161,88,.45)}
+}
+/* the map shows it is a link: a small hint appears on hover */
+.map-link::after{content:"Open in Google Maps \2197";position:absolute;right:12px;top:12px;padding:4px 12px;border-radius:999px;background:rgba(10,10,10,.82);border:1px solid var(--gold-line);color:var(--gold);font:600 12px/18px var(--font);opacity:0;translate:0 -4px;transition:opacity 250ms var(--ease),translate 250ms var(--ease)}
+.map-link:hover::after,.map-link:focus-visible::after{opacity:1;translate:none}
+.stack-sec:not(.is-stacked) .scard{position:relative}   /* list layout (phones): keeps the glow inside the card */
+
+/* reading progress line (script.js): 3px of gold at the very top, above the header */
+.progress{position:fixed;left:0;top:0;width:100%;height:3px;z-index:140;pointer-events:none;transform:scaleX(0);transform-origin:0 50%;
+  background:linear-gradient(90deg,#A8823F,#CCA158 60%,#E2C48C);box-shadow:0 0 8px rgba(204,161,88,.55)}
+
+/* even spacing: two plain sections in a row share one gap (96px desktop, 64px phone) instead of stacking both paddings,
+   and Common questions hands straight over to the layers section, whose own top space clears the header */
+.section+.section{padding-top:0}
+#faq{padding-bottom:var(--sp24)}
+
+/* brand strip: hovering a make sends one thin sheen of light gold across its logo, then across its name */
+.brand-item:hover .mark,.brand-item:hover .heading-5{
+  background:linear-gradient(105deg,var(--gold) 0%,var(--gold) 42%,#FFF3D6 50%,var(--gold) 58%,var(--gold) 100%) 100% 0/250% 100% no-repeat;
+  animation:logoShine 900ms cubic-bezier(.4,0,.2,1) both}
+.brand-item:hover .heading-5{-webkit-background-clip:text;background-clip:text;color:transparent;animation-delay:120ms}
+@keyframes logoShine{from{background-position:100% 0}to{background-position:0 0}}
+@media(prefers-reduced-motion:reduce){.brand-item:hover .mark,.brand-item:hover .heading-5{animation:logoShine 900ms cubic-bezier(.4,0,.2,1) both!important}
+  .brand-item:hover .heading-5{animation-delay:120ms!important}}
+
+/* ===== comfort pass: laptops and phones ===== */
+/* laptops (short screens): the hero shrinks with the screen height so the whole "Find your car" search is visible
+   on first load, not cut off below the fold */
+@media(min-width:1025px) and (max-height:920px){
+  .hero-in{padding-top:clamp(96px,17vh,160px);gap:clamp(28px,5vh,64px)}
+  .hero-copy{gap:clamp(12px,2.2vh,24px)}
+  .hero-copy h1{font-size:clamp(56px,min(7.6vw,11.2vh),108px)}
+}
+/* the layer dots are small to look at, but get a finger-sized area to click */
+.sdot{position:relative}
+.sdot::before{content:"";position:absolute;inset:-14px -6px}
+/* touch screens: every button, chip and link is at least 44px tall, so taps land first time */
+@media(pointer:coarse){
+  .btn,.fbtn{min-height:44px}
+  .rail-nav .gbtn,.gbtn{width:44px;height:44px}
+  .avail{min-height:44px}
+  .foot-col{gap:0}
+  .foot-col a,.foot-col p{display:flex;align-items:center;min-height:44px}
+  .footer .link{min-height:44px;padding-inline:var(--sp8)}
+}
+@media(max-width:720px){
+  /* the menu button stays readable over the bright showroom photo */
+  .hero-media::before{content:"";position:absolute;inset:0 0 auto;height:120px;z-index:1;pointer-events:none;background:linear-gradient(rgba(0,0,0,.7),transparent)}
+  /* stock search: mileage and sort share a row, so the first car shows up sooner */
+  .tools .fld:nth-child(4),.tools .fld:last-child{grid-column:auto}
+  /* the little "Walkaround reel" and "Message us" labels would sit on top of the social preview on a phone */
+  .float{display:none}
+  /* the WhatsApp button never covers the last lines of the footer */
+  .footer{padding-bottom:calc(var(--sp24) + 64px)}
+}
+.mobile-menu a{display:flex;align-items:center;min-height:48px}   /* phone menu: big, easy rows to tap */
+
+/* smoothness: the hover glow is a plain see-through layer (no blend mode, which is costly to redraw while the layer cards
+   move) and only exists on devices with a mouse; no blur behind the small "Photos coming soon" badges */
+.car::after,.scard::after,.faq details::after,.btn::after,.gbtn::after,.fbtn::after{mix-blend-mode:normal}
+.car::after,.faq details::after,.btn::after,.gbtn::after,.fbtn::after{background:radial-gradient(var(--gr,260px) circle at var(--mx,50%) var(--my,50%),rgba(204,161,88,.1),transparent 65%)}
+.scard::after{background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(204,161,88,.07),transparent 65%)}
+.btn-gold::after{background:radial-gradient(90px circle at var(--mx,50%) var(--my,50%),rgba(255,240,210,.35),transparent 65%)}
+@media(hover:none){.car::after,.scard::after,.faq details::after,.btn::after,.gbtn::after,.fbtn::after{display:none}}
+.soon{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(10,10,10,.86)}
+/* very tall screens: the layer frame sits in the middle of the screen instead of leaving a big empty band below it */
+@media(min-height:1000px){.is-stacked .stack-pin{justify-content:center}.is-stacked .stack{flex:0 0 auto;height:620px}}
+.scrolling .stack{pointer-events:none}   /* see script.js: no hover redraws on the layer cards mid-scroll */
+
+/* full-screen width: content runs almost edge to edge on desktop, with a gutter that grows gently with the screen */
+@media(min-width:1025px){
+  :root{--wrap:2560px;--gutter:clamp(32px,3vw,64px)}
+  .nav-in,.hero-in,.section,.stack-pin,.foot-in,.footer{padding-left:var(--gutter);padding-right:var(--gutter)}
+}
+
+/* long specs (engine, interior, equipment) wrap cleanly beside their label */
+.spec-group dt{flex:none}
+.spec-group dd{min-width:0}
+
+/* car popup: wide on computers, photos on the left, the key figures, both spec tables and the button on the right,
+   so the whole sheet fits a 100% zoom screen without scrolling */
+@media(min-width:1025px){
+  dialog#carDialog{width:min(1280px,calc(100% - 48px));max-height:calc(100svh - 32px)}
+  #carDialog .dlg{padding:20px 24px;gap:16px}
+  #carDialog .dlg-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:start}
+  #carDialog .dlg-info{justify-content:flex-start;gap:10px}
+  #carDialog .dlg-media .car-img.has-photo{aspect-ratio:4/3;max-height:calc(100svh - 250px);width:100%}
+  #carDialog .dlg-media .car-img:not(.has-photo){min-height:min(360px,calc(100svh - 230px))}
+  #carDialog .thumbs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;scrollbar-color:#CCA158 transparent;padding-bottom:4px}
+  #carDialog .thumb{width:60px}
+  #carDialog .stats{margin-top:4px}
+  #carDialog .tile{padding:10px 12px}
+  #carDialog .tile b{font-size:22px;line-height:28px}
+  #carDialog .spec-groups{gap:16px;margin-top:6px}
+  #carDialog .spec-group div{padding:6px 10px;gap:10px}
+  #carDialog .spec-group dt,#carDialog .spec-group dd{font-size:13px;line-height:18px}
+  #carDialog .dlg-cta{padding-top:4px}
+}
+@media(min-width:1025px) and (max-height:700px){#carDialog .spec-group div{padding:4px 10px}#carDialog .tile{padding:8px 12px}#carDialog .dlg{gap:12px}}   /* short laptop windows: a little tighter so the sheet still fits */
+
+/* popup photo: swipe with a finger or the mouse, gold arrows on each side, photo counter */
+#dStage{touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:grab}
+#dStage.dragging{cursor:grabbing}
+#dStage.dragging img,#dStage img{transition:none}
+#dStage img{-webkit-user-drag:none}
+.ph-arrow{position:absolute;top:50%;width:44px;height:44px;margin-top:-22px;border-radius:999px;border:1px solid rgba(204,161,88,.55);background:rgba(10,10,10,.55);color:#CCA158;display:grid;place-items:center;font-size:20px;cursor:pointer;z-index:2;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:background-color var(--fast) var(--ease),border-color var(--fast) var(--ease),transform var(--fast) var(--ease)}
+.ph-arrow.prev{left:12px}.ph-arrow.next{right:12px}
+.ph-arrow:hover{background:#CCA158;color:#0A0A0A;border-color:#CCA158}
+.ph-arrow:active{transform:scale(.94)}
+.ph-arrow:focus-visible{outline:2px solid #CCA158;outline-offset:2px}
+.ph-count{position:absolute;right:12px;bottom:12px;z-index:2;padding:4px 10px;border-radius:999px;background:rgba(10,10,10,.6);color:#E8E2D6;font-variant-numeric:tabular-nums;pointer-events:none}
+@media (max-width:600px){.ph-arrow{width:40px;height:40px;margin-top:-20px;font-size:18px}.ph-arrow.prev{left:8px}.ph-arrow.next{right:8px}}
+
+/* header logo: hovering sends the same thin sheen of light gold across it as the makes in the brand strip */
+.brand{position:relative}
+.brand::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;
+  background:linear-gradient(105deg,transparent 0%,transparent 40%,rgba(255,243,214,.95) 50%,transparent 60%,transparent 100%) 100% 0/250% 100% no-repeat;
+  -webkit-mask:url(assets/brand/aurea-logo-header.webp) center/contain no-repeat;mask:url(assets/brand/aurea-logo-header.webp) center/contain no-repeat}
+.brand:hover::after,.brand:focus-visible::after{opacity:1;animation:logoShine 900ms cubic-bezier(.4,0,.2,1) both}
+@media(prefers-reduced-motion:reduce){.brand:hover::after,.brand:focus-visible::after{animation:logoShine 900ms cubic-bezier(.4,0,.2,1) both!important}}
+
+/* car photos are square: every frame is 1:1 so the whole picture shows, nothing is cropped, and the hover zoom is gone for the same reason */
+.car-img.has-photo{aspect-ratio:1/1}
+.car-img.has-photo img{object-fit:contain}
+.car:hover .car-img.has-photo img{transform:none}
+.dlg-media .car-img.has-photo{aspect-ratio:1/1;width:100%}
+.thumb img{object-fit:contain}
+@media(min-width:1025px){
+  /* the popup stays one screen tall, so the square takes the smaller of column width and free height */
+  #carDialog .dlg-media .car-img.has-photo{aspect-ratio:1/1;width:min(100%,calc(100svh - 230px));max-height:none;margin-inline:auto}
+}
+
+/* car pages */
+.cp{max-width:var(--wrap);margin:0 auto;padding:calc(var(--sp96) + var(--sp16)) var(--sp64) var(--sp64);display:flex;flex-direction:column;gap:var(--sp32)}
+.crumbs{display:flex;flex-wrap:wrap;gap:var(--sp8);color:var(--mut);list-style:none;padding:0}
+.crumbs li+li::before{content:"/";margin-right:var(--sp8)}
+.crumbs a:hover{color:var(--gold)}
+.cp-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--sp40);align-items:start}
+.cp-media{display:flex;flex-direction:column;gap:var(--sp8);min-width:0}
+.cp-info{display:flex;flex-direction:column;gap:var(--sp16);min-width:0}
+.cp-info .lead{max-width:none}
+.cp-info .stats{margin-top:0}
+.cp-info .spec-groups{grid-template-columns:1fr}
+.cp-actions{display:flex;flex-wrap:wrap;gap:var(--sp12)}
+.cp-thumbs{display:flex;flex-wrap:wrap;gap:var(--sp8)}
+a.thumb{display:block}
+.thumb[aria-current=true]{border-color:var(--gold);opacity:1}
+.cp-more{display:flex;flex-direction:column;gap:var(--sp16)}
+.cp-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--sp16)}
+.cp-grid a{display:flex;flex-direction:column;gap:var(--sp8);border:1px solid var(--line);border-radius:12px;padding:var(--sp8);transition:border-color var(--fast) var(--ease)}
+.cp-grid a:hover{border-color:var(--gold-line)}
+.cp-grid img{width:100%;height:auto;aspect-ratio:1/1;border-radius:6px;display:block}
+.dlg-cta a[href^="voitures/"]{white-space:nowrap}
+@media(min-width:1025px){.foot-in{grid-template-columns:2fr 1fr 1fr 1fr}.cp{padding-left:var(--gutter);padding-right:var(--gutter)}}
+@media(max-width:1024px){.cp{padding-left:var(--sp24);padding-right:var(--sp24)}.cp-top{grid-template-columns:1fr}.cp-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.foot-cars{grid-column:1/-1}}
+@media(max-width:720px){.cp{padding:calc(var(--sp80) + var(--sp8)) var(--sp16) var(--sp40)}.cp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* brand strip logos: the file paths live here, so they resolve against this stylesheet on every language page
+   (a url() written inline on /ar/ or /en/ pages was resolved from the wrong folder and the logos never loaded) */
+.mark[data-logo=audi]{--logo:url(assets/logo-audi.svg)}
+.mark[data-logo=porsche]{--logo:url(assets/logo-porsche.svg)}
+.mark[data-logo=mercedes]{--logo:url(assets/logo-mercedes.svg)}
+.mark[data-logo=brabus]{--logo:url(assets/logo-brabus.png)}
+.mark[data-logo=landrover]{--logo:url(assets/logo-landrover.svg)}
+.mark[data-logo=bentley]{--logo:url(assets/logo-bentley.svg)}
+
+/* car popup on a phone: a full screen page that slides up. The photo runs edge to edge at its full 1:1 shape, the thumbnails
+   are one row to swipe, the two spec tables sit behind tabs, and the close button and the WhatsApp button are always on screen */
+.spec-tabs,.dlg-more{display:none}
+@media(max-width:720px){
+  html:has(#carDialog[open]){overflow:hidden}
+  dialog#carDialog{width:100%;max-width:100%;height:100vh;height:100dvh;max-height:none;margin:0;border:0;border-radius:0}
+  dialog#carDialog[open]{animation:dlgSheet 420ms var(--ease) both}
+  #dBody{display:flex;min-height:100%}
+  #carDialog .dlg{flex:1;min-width:0;padding:0;gap:0}
+  #carDialog .dlg-grid,#carDialog .dlg-info{display:contents}
+  #carDialog .dlg-top{position:sticky;top:0;z-index:5;padding:calc(var(--sp8) + env(safe-area-inset-top,0px)) var(--sp16) var(--sp8);background:var(--s1);box-shadow:inset 0 -1px 0 var(--line)}
+  #carDialog .dlg-media{min-width:0}
+  #carDialog .dlg-media .car-img{border-radius:0;min-height:0}
+  #carDialog .dlg-media .car-img.has-photo{width:100%;max-height:60svh;margin:0}
+  #carDialog .ph-arrow{display:none}
+  #carDialog .thumbs{flex-wrap:nowrap;overflow-x:auto;gap:var(--sp8);padding:var(--sp8) var(--sp16);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  #carDialog .thumbs::-webkit-scrollbar{display:none}
+  #carDialog .thumb{width:60px}
+  #carDialog .dlg-info>*{margin-inline:var(--sp16)}
+  #carDialog .make{margin-top:var(--sp16)}
+  #carDialog .sub{margin-top:var(--sp4)}
+  #carDialog .stats{margin-top:var(--sp16)}
+  #carDialog .spec-tabs{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp4);margin-top:var(--sp16);padding:var(--sp4);background:var(--s0);border:1px solid var(--line);border-radius:999px}
+  .spec-tab{min-height:44px;padding:0 var(--sp8);border:0;border-radius:999px;background:transparent;color:var(--mut);cursor:pointer;transition:background-color var(--fast) var(--ease),color var(--fast) var(--ease)}
+  .spec-tab[aria-pressed=true]{background:var(--gold);color:#0A0A0A}
+  #carDialog .spec-groups{gap:0;margin-top:var(--sp8)}
+  #carDialog .spec-group h3{display:none}
+  #carDialog .spec-groups:not([data-on="1"]) .spec-group+.spec-group,#carDialog .spec-groups[data-on="1"] .spec-group:first-child{display:none}
+  #carDialog .dlg-more{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp8);min-height:48px;margin-top:var(--sp8);color:var(--gold)}
+  #carDialog .dlg-cta{position:sticky;bottom:0;z-index:5;margin:auto 0 0;padding:var(--sp12) var(--sp16) calc(var(--sp12) + env(safe-area-inset-bottom,0px));background:var(--s1);box-shadow:inset 0 1px 0 var(--line)}
+  #carDialog .dlg-cta .btn-gold{flex:1;justify-content:center}
+  #carDialog .dlg-cta .btn:not(.btn-gold){display:none}
+}
+[dir=rtl] .dlg-more .ph{transform:scaleX(-1)}
+@keyframes dlgSheet{from{transform:translateY(100%)}to{transform:none}}
+@media(max-width:720px) and (prefers-reduced-motion:reduce){dialog#carDialog[open]{animation:fade 200ms linear both}}
+
+/* legal popup: privacy policy and terms with headings, paragraphs and lists */
+#legalDialog{width:min(720px,calc(100% - var(--sp32)))}
+#legalDialog .dwrap{padding:var(--sp32) var(--sp24) var(--sp24)}
+#legalDialog #lTitle{padding-inline-end:56px}
+.legal-text{display:flex;flex-direction:column;gap:var(--sp8);color:var(--tx2);line-height:1.6}
+.legal-text h3{margin:var(--sp16) 0 0;color:var(--gold);font:600 15px/1.4 var(--font)}
+.legal-text p,.legal-text ul{margin:0;max-width:none}
+.legal-text ul{padding-inline-start:20px;display:flex;flex-direction:column;gap:4px}
+.legal-text li::marker{color:var(--gold)}
+.legal-text .legal-date{color:var(--mut);font-size:13px}
+[dir=rtl] #legalDialog .close{right:auto;left:var(--sp16)}
+
+
+/* services: three tall photo panels side by side. Each title sits in the middle; on hover it slides up and the text and
+   button pop out under it. Touch screens have no hover, so a panel opens when it scrolls into view (script.js) */
+.svc-sec{position:relative;width:100%;max-width:none;padding:var(--sp96) 0}
+.svc-head{padding:0 var(--gutter,var(--sp24)) var(--sp40)}
+.svc-head .eyebrow{color:var(--tx2)}
+.svc-panels{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));}
+.svc-panel{height:max(38vw,450px);position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;padding:var(--sp24);background:var(--s0)}
+.svc-panel+.svc-panel{box-shadow:inset 1px 0 0 rgba(204,161,88,.22)}
+.svc-panel img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;transition:transform 900ms cubic-bezier(.22,1,.36,1)}
+.svc-panel::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.66) 0%,rgba(0,0,0,.26) 45%,rgba(0,0,0,.58) 100%);transition:background-color 500ms var(--ease)}
+.svc-copy{width:100%;max-width:440px}
+.svc-copy h3{color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.75)}
+.svc-more{display:grid;grid-template-rows:0fr;opacity:0;transform:translateY(18px);transition:grid-template-rows 520ms cubic-bezier(.22,1,.36,1),opacity 320ms var(--ease),transform 520ms cubic-bezier(.22,1,.36,1)}
+.svc-more>div{min-height:0;overflow:hidden;padding-inline:4px}
+.svc-more p{margin-top:var(--sp12);color:#EFE9DE;text-shadow:0 1px 10px rgba(0,0,0,.8)}
+.svc-more .btn{margin:var(--sp24) 0 var(--sp4);background:rgba(10,10,10,.5);border-color:var(--gold-line);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.svc-more .btn:hover{background:var(--gold);border-color:var(--gold);color:#0A0A0A}
+.svc-more .btn .ph{color:var(--gold)}.svc-more .btn:hover .ph{color:inherit}
+[dir=rtl] .svc-more .btn .ph{transform:scaleX(-1)}
+.svc-panel.open .svc-more,.svc-panel:focus-within .svc-more,html:not(.js) .svc-more{grid-template-rows:1fr;opacity:1;transform:none}
+.svc-panel.open img{transform:scale(1.07)}
+.svc-panel.open::after,.svc-panel:focus-within::after{background-color:rgba(0,0,0,.42)}
+@media(hover:hover){
+  .svc-panel:hover .svc-more{grid-template-rows:1fr;opacity:1;transform:none}
+  .svc-panel:hover::after{background-color:rgba(0,0,0,.42)}
+  .svc-panel:hover img{transform:scale(1.07)}
+}
+@media(max-width:1024px){
+  .svc-sec{padding:var(--sp64) 0}
+  .svc-head{padding:0 var(--sp24) var(--sp32)}
+  .svc-panel{padding:var(--sp16);height:max(38vw,460px)}
+}
+@media(max-width:720px){
+  .svc-head{padding:0 var(--sp16) var(--sp24)}
+  .svc-panels{grid-template-columns:1fr}
+  .svc-panel{height:110vw;min-height:350px}
+  .svc-panel+.svc-panel{box-shadow:inset 0 1px 0 rgba(204,161,88,.22)}
+}
+@media(prefers-reduced-motion:reduce){.svc-more,.svc-panel img,.svc-panel::after{transition:none}.svc-panel img{transform:none!important}}
+
+/* language switcher */
+.lang{display:flex;align-items:center;gap:2px;pointer-events:auto;padding:4px;border-radius:999px;background:rgba(9,10,13,.78);border:1px solid rgba(255,255,255,.12)}
+.lang a{min-width:34px;min-height:34px;display:grid;place-items:center;padding:0 8px;border-radius:999px;font-size:13px;font-weight:600;color:#cfc8ba}
+.lang a:hover{color:var(--gold)}
+.lang a[aria-current]{background:var(--gold);color:#000}
+html[lang=fr] .map-link::after{content:"Ouvrir dans Google Maps \2197"}
+html[lang=ar] .map-link::after{content:"\2196  افتح في خرائط جوجل"}
+
+/* Arabic: its own typeface, no letter spacing (it breaks joined letters), right-to-left layout */
+:root[lang=ar]{--font:'Cairo','Inter',system-ui,sans-serif;--display:'Cairo','Inter',sans-serif;--hero-font:'Cairo','Inter',sans-serif;--tab-font:'Cairo','Inter',sans-serif;--mono:'Cairo','Inter',system-ui,sans-serif}
+[lang=ar] *{letter-spacing:0!important}
+[lang=ar] .heading-1,[lang=ar] .hero-copy h1{line-height:1.25}
+[lang=ar] .heading-2{line-height:1.3}
+[dir=rtl] .brand{margin-right:0;margin-left:auto}
+[dir=rtl] .marquee{direction:ltr}
+[dir=rtl] .car{text-align:right}
+[dir=rtl] .ph-caret-left,[dir=rtl] .ph-caret-right,[dir=rtl] .ph-arrow-right{transform:scaleX(-1)}
+[dir=rtl] .ph-arrow.prev{left:auto;right:12px}
+[dir=rtl] .ph-arrow.next{right:auto;left:12px}
+[dir=rtl] .ph-count{right:auto;left:12px;direction:ltr;unicode-bidi:isolate}
+[dir=rtl] .q-wrap .ph{left:auto;right:var(--sp12)}
+[dir=rtl] .q-wrap input{padding-left:var(--sp12);padding-right:40px}
+[dir=rtl] .count{margin-left:0;margin-right:auto}
+[dir=rtl] .spec-group dd{text-align:left}
+[dir=rtl] [data-phone],[dir=rtl] input[type=tel]{direction:ltr;unicode-bidi:isolate}
+[dir=rtl] [data-phone]{text-align:right}
+[dir=rtl] .foot-col [data-phone]{text-align:right;width:100%}
+@media(min-width:1025px){
+  [dir=rtl] .hero-media{inset:0 36% 88px 0}
+  [dir=rtl] .hero-media img{-webkit-mask-image:linear-gradient(270deg,transparent,#000 42%),linear-gradient(0deg,transparent,#000 22%);mask-image:linear-gradient(270deg,transparent,#000 42%),linear-gradient(0deg,transparent,#000 22%)}
+}
+@media(max-width:720px){.lang a{min-width:30px;min-height:30px;padding:0 6px;font-size:12px}}
+/* 03 visit: the showroom photo (Brabus G in the Tanger showroom) fills the card, text sits on a dark fade at the top, above the car */
+.scard-visual.visit{justify-content:flex-start;background:linear-gradient(0deg,rgba(10,10,10,0) 55%,rgba(10,10,10,.6) 75%,rgba(10,10,10,.92) 100%),url("assets/showroom-brabus-g-tanger.webp") center 70%/cover no-repeat,#0a0a0a;padding-top:var(--sp24)}
+.scard-visual.visit .visit-art{display:none}
+.scard-visual.visit .visit-k{background:rgba(10,10,10,.6);color:var(--gold);border-color:var(--gold-line)}
+.scard-visual.visit .visit-sub{color:#cfc6b4}
