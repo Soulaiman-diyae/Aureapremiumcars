@@ -989,6 +989,7 @@ a.thumb{display:block}
 .lang a[aria-current]{background:var(--gold);color:#000}
 html[lang=fr] .map-link::after{content:"Ouvrir dans Google Maps \2197"}
 html[lang=ar] .map-link::after{content:"\2196  افتح في خرائط جوجل"}
+html[lang=es] .map-link::after{content:"Abrir en Google Maps \2197"}
 
 /* Arabic: its own typeface, no letter spacing (it breaks joined letters), right-to-left layout */
 :root[lang=ar]{--font:'Cairo','Inter',system-ui,sans-serif;--display:'Cairo','Inter',sans-serif;--hero-font:'Cairo','Inter',sans-serif;--tab-font:'Cairo','Inter',sans-serif;--mono:'Cairo','Inter',system-ui,sans-serif}
