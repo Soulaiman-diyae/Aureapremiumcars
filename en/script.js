@@ -58,7 +58,7 @@ $$('[data-addr]').forEach(e=>e.textContent=CONFIG.address);
 $$('[data-hours]').forEach(e=>e.textContent=CONFIG.hours);
 $$('[data-phone]').forEach(e=>e.textContent=CONFIG.phone);
 const avail=CARS.filter(c=>c.status==='Available').length;
-$('#countProof').textContent=`${CARS.length} imported cars on the floor, ${avail} available`;
+$('#countProof').textContent=`15 imported cars on the floor, 15 available`;
 $('#aCars').textContent=CARS.length;$('#aMakes').textContent=new Set(CARS.map(c=>c.make)).size;$('#aFrom').textContent=new Set(CARS.map(c=>c.from).filter(known)).size;
 $$('#footContact p').forEach(p=>{if(p.textContent.startsWith('{{'))p.remove()});
 const wa=t=>`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(t)}`;

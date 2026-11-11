@@ -34,7 +34,7 @@ $$('[data-addr]').forEach(e=>e.textContent=CONFIG.address);
 $$('[data-hours]').forEach(e=>e.textContent=CONFIG.hours);
 $$('[data-phone]').forEach(e=>e.textContent=CONFIG.phone);
 const avail=CARS.filter(c=>c.status==='Disponible').length;
-$('#countProof').textContent=`${CARS.length} voitures importées en showroom, ${avail} disponibles`;
+$('#countProof').textContent=`15 voitures importées en showroom, 15 disponibles`;
 $('#aCars').textContent=CARS.length;$('#aMakes').textContent=new Set(CARS.map(c=>c.make)).size;$('#aFrom').textContent=new Set(CARS.map(c=>c.from).filter(known)).size;
 $$('#footContact p').forEach(p=>{if(p.textContent.startsWith('{{'))p.remove()});
 const wa=t=>`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(t)}`;
