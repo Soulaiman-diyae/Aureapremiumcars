@@ -1020,8 +1020,9 @@ html[lang=es] .map-link::after{content:"Abrir en Google Maps \2197"}
 .scard-visual.visit .visit-art{display:none}
 .scard-visual.visit .visit-k{background:rgba(10,10,10,.6);color:var(--gold);border-color:var(--gold-line)}
 .scard-visual.visit .visit-sub{color:#cfc6b4}
+@font-face{font-family:'Daniel Davis';src:url("assets/fonts/daniel-davis.otf") format("opentype");font-display:swap}
 /* signature in the footer: "Made with ❤️ by Diyae & Soulaiman", each name opens their WhatsApp */
-.sig{font-family:'Daniel Davis','Brush Script MT','Segoe Script',cursive;font-size:22px;line-height:1.2;color:var(--gold);white-space:nowrap;letter-spacing:0}
+.sig{font-family:'Daniel Davis','Brush Script MT','Segoe Script',cursive;font-size:34px;line-height:1.5;padding:4px 0;color:var(--gold);white-space:nowrap;letter-spacing:0}
 .sig a{color:inherit;text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size 300ms var(--ease)}
 .sig a:hover,.sig a:focus-visible{background-size:100% 1px}
 .sig-heart{font-family:system-ui,sans-serif;font-size:15px;vertical-align:2px}
