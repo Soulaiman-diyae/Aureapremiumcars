@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aurea car editor</title>
+<link rel="stylesheet" href="/ui/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><b>AUREA</b><span>Car editor</span></div>
+  <label class="total" title="How many cars are really in the showroom. The site shows this number, and a card inviting visitors to ask for the cars that are not online yet.">Cars in showroom <input id="total" type="number" min="0" inputmode="numeric"></label>
+  <span class="grow"></span>
+  <span class="state" id="state"></span>
+  <a class="btn" href="/site/index.html" target="_blank" id="preview">Preview site</a>
+  <button class="btn" id="save" title="Ctrl + S">Save</button>
+  <button class="btn gold" id="publish">Publish to website</button>
+</header>
+<div class="wrap">
+  <aside class="side">
+    <button class="btn gold add" id="add">+ Add a car</button>
+    <ul class="cars" id="cars"></ul>
+    <p class="hint">★ puts a car in the “New arrivals” row. Use ↑ ↓ to change the order on the site.</p>
+  </aside>
+  <main class="main" id="main"></main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<dialog id="ask"><form method="dialog"><p id="askText"></p><div class="row end"><button class="btn" value="no">Cancel</button><button class="btn gold" value="yes" id="askYes">OK</button></div></form></dialog>
+<script src="/ui/app.js"></script>
+</body>
+</html>
