@@ -53,31 +53,121 @@
    "kw": "مرسيدس-بنز مرسيدس",
    "photos": [
     {
-     "file": "assets/cars/mercedes-glc-coupe-noir-tanger-avant-trois-quarts.webp",
-     "alt": {
-      "fr": "Mercedes-Benz GLC Coupé noir, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC كوبيه سوداء, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Mercedes-Benz GLC Coupé, front three-quarter view, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC Coupé negro, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
-     }
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp438dl.webp"
     },
     {
-     "file": "assets/cars/mercedes-glc-coupe-noir-tanger-face-avant.webp",
-     "alt": {
-      "fr": "Mercedes-Benz GLC Coupé noir, vue de face avec la calandre étoilée, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC كوبيه سوداء, منظر أمامي مع الشبكة ذات النجمة, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Mercedes-Benz GLC Coupé, front view with the star grille, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC Coupé negro, vista frontal con la parrilla de la estrella, en Aurea Premium Cars, Tánger"
-     }
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp4kyuz.webp"
     },
     {
-     "file": "assets/cars/mercedes-glc-coupe-noir-tanger-arriere-trois-quarts.webp",
-     "alt": {
-      "fr": "Mercedes-Benz GLC Coupé noir, vue trois-quarts arrière, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC كوبيه سوداء, منظر خلفي جانبي, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Mercedes-Benz GLC Coupé, rear three-quarter view, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC Coupé negro, vista tres cuartos trasera, en Aurea Premium Cars, Tánger"
-     }
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp521gr.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp5gy83.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp5wrcm.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp6br77.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp6r92x.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp7jcvs.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp7xpw1.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp8eevq.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp8qpq8.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp96t6q.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp9lv2y.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrp9zxsl.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpafr8o.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpavbd4.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpbeo0f.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpbuund.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpcakc2.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpcoyqk.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpd2m6z.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpdhmc3.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpdwfn2.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpeaq6k.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrper76t.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpf5mu9.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpflmjj.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpg0s8t.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpgf37y.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpgt6pm.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrph6mne.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrphmwi6.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpi157t.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpiguif.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpiv1vx.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpj8w6p.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpjoa7w.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpk4dqk.webp"
+    },
+    {
+     "file": "assets/cars/mercedes-benz-glc-coupe-4matic-mwdrpkimgu.webp"
     }
    ]
   },
