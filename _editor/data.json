@@ -6,7 +6,7 @@
    "q8",
    "cayenne",
    "glc300de",
-   "q5sb"
+   "q3sb"
   ]
  },
  "cars": [
@@ -258,16 +258,70 @@
       "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vue de face avec la calandre étoilée, chez Aurea Premium Cars à Tanger",
       "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, منظر أمامي مع الشبكة ذات النجمة, لدى Aurea Premium Cars في طنجة",
       "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, front view with the star grille, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vista frontal con la parrilla de la estrella, en Aurea Premium Cars, Tánger"
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vista frontal con la parrilla de estrellas, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-avant-cote.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-avant-trois-quarts-droit.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, angle avant et jante alliage noire, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الزاوية الأمامية والجنط الأسود, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, front corner and black alloy wheel, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, esquina delantera y llanta de aleación negra, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vue trois-quarts avant côté droit, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, منظر أمامي جانبي من الجهة اليمنى, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, front three-quarter view from the right, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vista tres cuartos delantera desde la derecha, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-embleme-capot.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, écusson Mercedes-Benz sur le capot, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, شعار مرسيدس-بنز على غطاء المحرك, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, Mercedes-Benz crest on the bonnet, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, emblema Mercedes-Benz en el capó, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-calandre-etoilee.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, calandre étoilée en gros plan, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الشبكة ذات النجوم عن قرب, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, star grille close up, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, parrilla de estrellas de cerca, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-jante-amg-20-pouces.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, jante AMG noire 20 pouces, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, جنط AMG أسود مقاس 20 بوصة, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, black 20 inch AMG wheel, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, llanta AMG negra de 20 pulgadas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-cameras-pare-brise.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, caméras d'aide à la conduite derrière le pare-brise, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, كاميرات مساعدة القيادة خلف الزجاج الأمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, driver assistance cameras behind the windscreen, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, cámaras de asistencia a la conducción tras el parabrisas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-retroviseur-camera-360.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, coque de rétroviseur noire et caméra 360°, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, غطاء المرآة الأسود وكاميرا 360 درجة, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, black mirror cap with 360 degree camera, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, carcasa de retrovisor negra y cámara 360°, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-toit-panoramique.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, toit panoramique en verre, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, السقف البانورامي الزجاجي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, panoramic glass roof, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, techo panorámico de cristal, en Aurea Premium Cars, Tánger"
      }
     },
     {
@@ -280,84 +334,246 @@
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-arriere-jante.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-face-arriere.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, angle arrière et jante alliage noire, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الزاوية الخلفية والجنط الأسود, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, rear corner and black alloy wheel, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, esquina trasera y llanta de aleación negra, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vue arrière avec bandeau lumineux, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, منظر خلفي مع الشريط الضوئي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, rear view with the light bar, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vista trasera con la franja de luz, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-tableau-de-bord.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-arriere-trois-quarts-droit.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, tableau de bord et écran tactile central, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, لوحة القيادة والشاشة المركزية, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, dashboard and central touchscreen, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, salpicadero y pantalla táctil central, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vue trois-quarts arrière de l'autre côté, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, منظر خلفي جانبي من الجهة الأخرى, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, rear three-quarter view from the other side, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, vista tres cuartos trasera desde el otro lado, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-poste-de-conduite.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-monogramme-glc-300-de.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volant et poste de conduite, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, المقود ومكان السائق, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, steering wheel and driver cockpit, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volante y puesto de conducción, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, monogramme GLC 300 de, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, شارة GLC 300 de, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, GLC 300 de badge, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, insignia GLC 300 de, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-console-centrale.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-badge-4matic.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, console centrale et sièges avant, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الكونسول الأوسط والمقاعد الأمامية, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, centre console and front seats, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, consola central y asientos delanteros, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, badge 4MATIC et feu arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, شارة 4MATIC والمصباح الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, 4MATIC badge and tail light, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, insignia 4MATIC y piloto trasero, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-sieges-avant-porte-conducteur.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-badge-4matic-becquet.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, sièges avant vus de la porte conducteur, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, المقاعد الأمامية من باب السائق, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, front seats seen from the driver door, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, asientos delanteros vistos desde la puerta del conductor, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, badge 4MATIC sous le becquet, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, شارة 4MATIC تحت الجناح الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, 4MATIC badge under the rear spoiler, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, insignia 4MATIC bajo el alerón, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-sieges-avant-porte-passager.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-monogramme-feu-arriere.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, sièges avant en cuir fauve vus de la porte passager, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, مقاعد أمامية من الجلد البني من باب الراكب, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, tan leather front seats seen from the passenger door, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, asientos delanteros de cuero camel vistos desde la puerta del pasajero, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, monogramme GLC 300 de au-dessus du feu arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, شارة GLC 300 de فوق المصباح الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, GLC 300 de badge above the tail light, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, insignia GLC 300 de sobre el piloto trasero, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-banquette-arriere.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-diffuseur-echappement.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, sièges arrière en cuir fauve, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, مقاعد خلفية من الجلد البني, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, tan leather rear seats, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, asientos traseros de cuero camel, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, diffuseur arrière et sortie d'échappement chromée, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الناشر الخلفي ومخرج العادم الكرومي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, rear diffuser and chrome exhaust, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, difusor trasero y salida de escape cromada, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-toit-panoramique.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commandes-siege-porte.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, toit panoramique, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, السقف البانورامي, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, panoramic roof, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, techo panorámico, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, panneau de porte avec commandes de siège et éclairage d'ambiance, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, لوحة الباب مع أزرار المقعد والإضاءة المحيطية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, door panel with seat controls and ambient lighting, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, panel de puerta con mandos del asiento e iluminación ambiental, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-panneau-de-porte.webp",
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-haut-parleur-burmester.webp",
      "alt": {
-      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, panneau de porte en cuir fauve, chez Aurea Premium Cars à Tanger",
-      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, لوحة الباب من الجلد البني, لدى Aurea Premium Cars في طنجة",
-      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, door panel in tan leather, at Aurea Premium Cars in Tangier",
-      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, panel de puerta en cuero camel, en Aurea Premium Cars, Tánger"
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, haut-parleur Burmester de porte, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, مكبر صوت Burmester في الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, Burmester door speaker, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, altavoz Burmester de la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commandes-vitres.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, commandes des vitres et des rétroviseurs, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, أزرار النوافذ والمرايا, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, window and mirror switches, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, mandos de ventanillas y retrovisores, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-interieur-cuir-siena.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volant, tableau de bord et cuir marron Siena, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, المقود ولوحة القيادة والجلد البني, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, steering wheel, dashboard and Siena Brown leather, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volante, salpicadero y cuero marrón Siena, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-sieges-avant-cuir.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, sièges avant en cuir marron Siena, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, المقاعد الأمامية من الجلد البني, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, Siena Brown leather front seats, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, asientos delanteros de cuero marrón Siena, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-volant.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volant, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commandes-volant-gauche.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, commandes du régulateur au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, أزرار مثبت السرعة على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, cruise control buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, mandos del control de crucero en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commandes-volant-droite.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, commandes multimédia et téléphone au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, أزرار الوسائط والهاتف على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, media and phone buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, mandos multimedia y teléfono en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-selecteur-vitesses.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, sélecteur de vitesses et palette, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, ناقل الحركة ومبدّل السرعات, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, gear selector and shift paddle, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, selector de marchas y levas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commodo-eclairage.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, commodo d'éclairage et clignotants, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, ذراع الأضواء والإشارات, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, light and indicator stalk, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, palanca de luces e intermitentes, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-bouton-demarrage.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, bouton de démarrage, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, زر تشغيل المحرك, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, engine start button, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, botón de arranque, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-planche-de-bord-passager.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, planche de bord et éclairage d'ambiance côté passager, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, لوحة القيادة والإضاءة المحيطية من جهة الراكب, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, dashboard trim and ambient lighting, passenger side, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, salpicadero e iluminación ambiental, lado del acompañante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-combine-numerique.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, combiné d'instruments numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, العدادات الرقمية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, digital instrument cluster, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, cuadro de instrumentos digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-ecran-central.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, écran tactile central et aérateurs, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, الشاشة المركزية وفتحات التهوية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, central touchscreen and air vents, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, pantalla táctil central y salidas de aire, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-console-plafonnier.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, console de plafonnier, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, لوحة التحكم العلوية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, overhead control panel, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, consola del techo, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-climatisation-arriere.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, aérateurs et climatisation arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, فتحات التهوية والتكييف الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, rear air vents and climate controls, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, salidas de aire y climatización trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-haut-parleur-arriere-burmester.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, haut-parleur Burmester de porte arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, مكبر صوت Burmester في الباب الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, Burmester speaker on the rear door, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, altavoz Burmester de la puerta trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-coffre.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, coffre avec hayon électrique, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, صندوق الأمتعة مع الباب الخلفي الكهربائي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, boot with power tailgate, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, maletero con portón eléctrico, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-bouton-hayon.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, bouton de fermeture du hayon, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, زر إغلاق الباب الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, tailgate close button, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, botón de cierre del portón, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/mercedes-glc-300-de-coupe-gris-tanger-commandes-hayon.webp",
+     "alt": {
+      "fr": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, commandes stop et verrouillage du hayon, chez Aurea Premium Cars à Tanger",
+      "ar": "مرسيدس-بنز GLC 300 de 4MATIC كوبيه رمادية, أزرار الإيقاف والقفل في الباب الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Mercedes-Benz GLC 300 de 4MATIC Coupé, tailgate stop and lock buttons, at Aurea Premium Cars in Tangier",
+      "es": "Mercedes-Benz GLC 300 de 4MATIC Coupé gris, mandos de parada y cierre del portón, en Aurea Premium Cars, Tánger"
      }
     }
    ]
@@ -722,12 +938,392 @@
    ]
   },
   {
-   "id": "q5sb",
-   "slug": "audi-q5-sportback-s-line-noir-tanger",
+   "id": "rrs2",
+   "slug": "range-rover-sport-p460e-gris-tanger",
+   "make": "Land Rover",
+   "model": "Range Rover Sport P460e",
+   "name": "Range Rover Sport P460e",
+   "nameAr": "رينج روفر سبورت P460e",
+   "year": 2026,
+   "body": {
+    "fr": "SUV",
+    "ar": "SUV",
+    "en": "SUV",
+    "es": "SUV"
+   },
+   "km": 39377,
+   "color": {
+    "fr": "Gris métallisé",
+    "ar": "رمادي معدني",
+    "en": "Grey metallic",
+    "es": "Gris metalizado"
+   },
+   "from": null,
+   "status": "available",
+   "engine": {
+    "fr": "Essence turbo 6 cylindres en ligne 3,0 L avec moteur électrique",
+    "ar": "بنزين تيربو 6 أسطوانات 3.0 لتر مع محرك كهربائي",
+    "en": "3.0L inline six turbo petrol with electric motor",
+    "es": "Gasolina turbo 3,0 L de 6 cilindros en línea con motor eléctrico"
+   },
+   "hp": 460,
+   "torque": 660,
+   "gearbox": {
+    "fr": "Automatique 8 rapports",
+    "ar": "أوتوماتيك 8 سرعات",
+    "en": "8 speed automatic",
+    "es": "Automático de 8 velocidades"
+   },
+   "drive": {
+    "fr": "Quatre roues motrices",
+    "ar": "دفع رباعي",
+    "en": "All wheel drive",
+    "es": "Tracción total"
+   },
+   "fuel": {
+    "fr": "Hybride rechargeable essence",
+    "ar": "بنزين هجين قابل للشحن",
+    "en": "Petrol plug-in hybrid",
+    "es": "Híbrido enchufable de gasolina"
+   },
+   "accel": 5.6,
+   "top": 225,
+   "interior": {
+    "fr": "Cuir fauve et noir",
+    "ar": "جلد بني فاتح وأسود",
+    "en": "Tan and black leather",
+    "es": "Cuero camel y negro"
+   },
+   "equipment": {
+    "fr": "Son Meridian, affichage tête haute, toit noir, jantes noires",
+    "ar": "نظام صوت Meridian، شاشة عرض أمامية، سقف أسود، جنوط سوداء",
+    "en": "Meridian sound, head-up display, black roof, black wheels",
+    "es": "Sonido Meridian, head-up display, techo negro, llantas negras"
+   },
+   "battery": 38.2,
+   "evRange": {
+    "fr": "104 à 118 km (WLTP)",
+    "ar": "104 إلى 118 كم (WLTP)",
+    "en": "104 to 118 km (WLTP)",
+    "es": "104 a 118 km (WLTP)"
+   },
+   "kw": "لاند روفر رينج روفر",
+   "photos": [
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-avant-trois-quarts.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, front three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-face-avant.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, vue de face, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, منظر أمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, front view, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, vista frontal, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-calandre-avant.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, calandre avant et phares, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الشبكة الأمامية والمصابيح, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, front grille and headlights, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, parrilla delantera y faros, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-logo-land-rover-calandre.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, logo Land Rover sur la calandre, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, شعار لاند روفر على الشبكة, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, Land Rover badge on the grille, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, logotipo Land Rover en la parrilla, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-grille-basse-camera.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, grille basse et caméra avant, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الشبكة السفلية والكاميرا الأمامية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, lower grille and front camera, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, rejilla inferior y cámara delantera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-bouclier-avant.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, bouclier avant et prise d'air, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الواقي الأمامي ومدخل الهواء, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, front bumper and air intake, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, paragolpes delantero y toma de aire, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-jante-noire-pirelli.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, jante noire et pneu Pirelli, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الجنط الأسود وإطار بيريلي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, black alloy wheel and Pirelli tyre, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, llanta negra y neumático Pirelli, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-retroviseur-noir.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, coque de rétroviseur noire, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, غطاء المرآة الأسود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, black mirror cap, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, carcasa de retrovisor negra, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-arriere-trois-quarts.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, vue trois-quarts arrière avec badge Sport, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, منظر خلفي جانبي مع شارة Sport, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, rear three-quarter view with Sport badge, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, vista tres cuartos trasera con insignia Sport, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-arriere-trois-quarts-droit.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, vue trois-quarts arrière de l'autre côté, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, منظر خلفي جانبي من الجهة الأخرى, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, rear three-quarter view from the other side, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, vista tres cuartos trasera desde el otro lado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-face-arriere.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, vue arrière avec le lettrage Range Rover, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, منظر خلفي مع كتابة Range Rover, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, rear view with the Range Rover lettering, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, vista trasera con las letras Range Rover, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-diffuseur-echappement.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, diffuseur arrière et sortie d'échappement, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الناشر الخلفي ومخرج العادم, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, rear diffuser and exhaust, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, difusor trasero y salida de escape, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-toit-noir.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, toit noir contrasté, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, السقف الأسود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, black contrast roof, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, techo negro en contraste, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-seuil-de-porte.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, seuil de porte Range Rover, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, عتبة الباب Range Rover, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, Range Rover door sill plate, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, umbral de puerta Range Rover, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-interieur-tableau-de-bord.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, tableau de bord et sièges avant en cuir fauve, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, لوحة القيادة والمقاعد الأمامية من الجلد البني, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, dashboard and tan leather front seats, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, salpicadero y asientos delanteros de cuero camel, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-poste-de-conduite.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, poste de conduite et volant, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, مكان السائق والمقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, driver cockpit and steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, puesto de conducción y volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-planche-de-bord-passager.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, tableau de bord côté passager, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, لوحة القيادة من جهة الراكب, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, dashboard, passenger side, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, salpicadero, lado del acompañante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-volant-combine.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, volant et combiné numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, المقود والعدادات الرقمية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, steering wheel and digital instrument cluster, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, volante y cuadro de instrumentos digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-combine-numerique.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, combiné numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, العدادات الرقمية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, digital instrument cluster, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, cuadro de instrumentos digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-commandes-volant-gauche.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, commandes multimédia et téléphone au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, أزرار الوسائط والهاتف على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, media and phone buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, mandos multimedia y teléfono en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-commandes-volant-droite.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, commandes du régulateur au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, أزرار مثبت السرعة على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, cruise control buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, mandos del control de crucero en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-commodo-essuie-glace.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, commodo d'essuie-glace et palette, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, ذراع المساحات ومبدّل السرعات, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, wiper stalk and shift paddle, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, palanca del limpiaparabrisas y leva, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-commodo-eclairage.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, commodo d'éclairage et clignotants, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, ذراع الأضواء والإشارات, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, light and indicator stalk, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, palanca de luces e intermitentes, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-ecran-central.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, écran tactile central, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الشاشة المركزية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, central touchscreen, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, pantalla táctil central, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-console-centrale.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, console centrale et sélecteur de vitesses, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, الكونسول الأوسط وناقل الحركة, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, centre console and gear selector, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, consola central y selector de marchas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-bouton-demarrage.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, bouton de démarrage et commandes de climatisation, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, زر التشغيل وأزرار التكييف, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, start button and climate dials, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, botón de arranque y mandos del climatizador, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-affichage-tete-haute.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, affichage tête haute, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, شاشة العرض الأمامية, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, head-up display, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, head-up display, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-panneau-de-porte.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, panneau de porte avant avec haut-parleur Meridian, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, لوحة الباب الأمامي مع مكبر صوت Meridian, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, front door panel with Meridian speaker, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, panel de puerta delantera con altavoz Meridian, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-memoires-siege.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, mémoires de siège et commandes des vitres, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, أزرار ذاكرة المقعد والنوافذ, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, seat memory and window switches, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, memorias del asiento y mandos de ventanillas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-poignee-interieure.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, poignée intérieure et boutons de verrouillage, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, مقبض الباب الداخلي وأزرار القفل, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, inner door handle and lock buttons, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, tirador interior y botones de cierre, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-haut-parleur-meridian.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, tweeter Meridian, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, مكبر صوت Meridian, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, Meridian tweeter, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, tweeter Meridian, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-sieges-arriere.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, sièges arrière en cuir fauve et accoudoir, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, المقاعد الخلفية من الجلد البني ومسند الذراع, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, tan leather rear seats and armrest, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, asientos traseros de cuero camel y reposabrazos, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-climatisation-arriere.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, aérateurs et climatisation arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, فتحات التهوية والتكييف الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, rear air vents and climate controls, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, salidas de aire y climatización trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/range-rover-sport-p460e-gris-tanger-interieur-vue-arriere.webp",
+     "alt": {
+      "fr": "Range Rover Sport P460e gris, habitacle vu de l'arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "رينج روفر سبورت P460e رمادية, المقصورة من الخلف, لدى Aurea Premium Cars في طنجة",
+      "en": "Grey Range Rover Sport P460e, cabin seen from the back, at Aurea Premium Cars in Tangier",
+      "es": "Range Rover Sport P460e gris, habitáculo visto desde atrás, en Aurea Premium Cars, Tánger"
+     }
+    }
+   ]
+  },
+  {
+   "id": "q3sb",
+   "slug": "audi-q3-sportback-s-line-noir-tanger",
    "make": "Audi",
-   "model": "Q5 Sportback 40 TDI quattro S line",
+   "model": "Q3 Sportback 35 TDI S line",
    "name": "",
-   "nameAr": "أودي Q5 Sportback 40 TDI quattro S line",
+   "nameAr": "أودي Q3 Sportback 35 TDI S line",
    "year": 2026,
    "body": {
     "fr": "SUV",
@@ -745,13 +1341,13 @@
    "from": null,
    "status": "available",
    "engine": {
-    "fr": "Diesel TDI 4 cylindres 2,0 L, micro-hybride",
-    "ar": "ديزل TDI بأربع أسطوانات 2.0 لتر، هجين خفيف",
-    "en": "2.0L TDI four cylinder diesel mild hybrid",
-    "es": "Diésel TDI 2,0 L de 4 cilindros, microhíbrido"
+    "fr": "Diesel TDI 4 cylindres 2,0 L",
+    "ar": "ديزل TDI بأربع أسطوانات 2.0 لتر",
+    "en": "2.0L TDI four cylinder diesel",
+    "es": "Diésel TDI 2,0 L de 4 cilindros"
    },
-   "hp": 204,
-   "torque": 400,
+   "hp": 150,
+   "torque": 360,
    "gearbox": {
     "fr": "Automatique S tronic 7 rapports",
     "ar": "أوتوماتيك S tronic بسبع سرعات",
@@ -759,10 +1355,10 @@
     "es": "Automático S tronic de 7 velocidades"
    },
    "drive": {
-    "fr": "Quatre roues motrices (quattro)",
-    "ar": "دفع رباعي (quattro)",
-    "en": "All wheel drive (quattro)",
-    "es": "Tracción total (quattro)"
+    "fr": "Traction avant",
+    "ar": "دفع أمامي",
+    "en": "Front wheel drive",
+    "es": "Tracción delantera"
    },
    "fuel": {
     "fr": "Diesel",
@@ -770,8 +1366,8 @@
     "en": "Diesel",
     "es": "Diésel"
    },
-   "accel": 7.4,
-   "top": 226,
+   "accel": 9.2,
+   "top": 207,
    "interior": {
     "fr": "Sièges noirs effet suède, surpiqûres rouges",
     "ar": "مقاعد سوداء بلمسة سويدية وخياطة حمراء",
@@ -789,102 +1385,102 @@
    "kw": "أودي",
    "photos": [
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-avant-trois-quarts.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-avant-trois-quarts.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, front three-quarter view, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, front three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-face-avant.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-face-avant.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, vue de face avec calandre nid d'abeille, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, منظر أمامي مع الشبكة السداسية, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, front view with honeycomb grille, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, vista frontal con parrilla de panal, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, vue de face avec calandre nid d'abeille, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, منظر أمامي مع الشبكة السداسية, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, front view with honeycomb grille, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, vista frontal con parrilla de panal, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-avant-jante.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-avant-jante.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, angle avant et jante alliage, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, الزاوية الأمامية والجنط, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, front corner and alloy wheel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, esquina delantera y llanta de aleación, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, angle avant et jante alliage, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, الزاوية الأمامية والجنط, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, front corner and alloy wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, esquina delantera y llanta de aleación, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-profil-portes-ouvertes.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-profil-portes-ouvertes.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, vue de profil, portes ouvertes, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, منظر جانبي والأبواب مفتوحة, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, side view with the doors open, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, vista lateral con las puertas abiertas, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, vue de profil, portes ouvertes, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, منظر جانبي والأبواب مفتوحة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, side view with the doors open, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, vista lateral con las puertas abiertas, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-arriere-jante.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-arriere-jante.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, angle arrière et jante alliage, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, الزاوية الخلفية والجنط, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, rear corner and alloy wheel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, esquina trasera y llanta de aleación, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, angle arrière et jante alliage, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, الزاوية الخلفية والجنط, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, rear corner and alloy wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, esquina trasera y llanta de aleación, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-arriere-trois-quarts.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-arriere-trois-quarts.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, vue trois-quarts arrière, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, منظر خلفي جانبي, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, rear three-quarter view, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, vista tres cuartos trasera, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, vue trois-quarts arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, منظر خلفي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, rear three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, vista tres cuartos trasera, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-interieur-sieges-avant.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-interieur-sieges-avant.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, sièges avant et volant, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, المقاعد الأمامية والمقود, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, front seats and steering wheel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, asientos delanteros y volante, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, sièges avant et volant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, المقاعد الأمامية والمقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, front seats and steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, asientos delanteros y volante, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-tableau-de-bord.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-tableau-de-bord.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, tableau de bord et écrans incurvés, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, لوحة القيادة والشاشات المنحنية, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, dashboard and curved displays, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, salpicadero y pantallas curvas, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, tableau de bord et écrans incurvés, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, لوحة القيادة والشاشات المنحنية, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, dashboard and curved displays, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, salpicadero y pantallas curvas, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-console-centrale.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-console-centrale.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, console centrale et écran passager, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, الكونسول الأوسط وشاشة الراكب, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, centre console and passenger display, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, consola central y pantalla del pasajero, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, console centrale et écran passager, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, الكونسول الأوسط وشاشة الراكب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, centre console and passenger display, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, consola central y pantalla del pasajero, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-sieges-surpiqures-rouges.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-sieges-surpiqures-rouges.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, sièges à surpiqûres rouges, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, مقاعد بخياطة حمراء, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, seats with red stitching, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, asientos con pespuntes rojos, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, sièges à surpiqûres rouges, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, مقاعد بخياطة حمراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, seats with red stitching, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, asientos con pespuntes rojos, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q5-sportback-s-line-noir-tanger-panneau-de-porte.webp",
+     "file": "assets/cars/audi-q3-sportback-s-line-noir-tanger-panneau-de-porte.webp",
      "alt": {
-      "fr": "Audi Q5 Sportback 40 TDI quattro S line noir, panneau de porte, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q5 سبورتباك 40 TDI quattro S line سوداء, لوحة الباب, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q5 Sportback 40 TDI quattro S line, door panel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q5 Sportback 40 TDI quattro S line negro, panel de puerta, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q3 Sportback 35 TDI S line noir, panneau de porte, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q3 سبورتباك 35 TDI S line سوداء, لوحة الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q3 Sportback 35 TDI S line, door panel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q3 Sportback 35 TDI S line negro, panel de puerta, en Aurea Premium Cars, Tánger"
      }
     }
    ]
@@ -957,6 +1553,15 @@
    "kw": "أودي",
    "photos": [
     {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-face-avant.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, vue de face avec la calandre noire, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, منظر أمامي مع الشبكة السوداء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, front view with the black grille, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, vista frontal con la parrilla negra, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
      "file": "assets/cars/audi-q8-s-line-noir-tanger-avant-trois-quarts.webp",
      "alt": {
       "fr": "Audi Q8 50 TDI quattro S line noir, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
@@ -966,12 +1571,75 @@
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-avant-jante.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-avant-trois-quarts-gauche.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, angle avant et jante 23 pouces, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, الزاوية الأمامية والجنط 23 بوصة, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, front corner and 23 inch wheel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, esquina delantera y llanta de 23 pulgadas, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, vue trois-quarts avant de l'autre côté, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, منظر أمامي جانبي من الجهة الأخرى, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, front three-quarter view from the other side, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, vista tres cuartos delantera desde el otro lado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-calandre-anneaux.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, anneaux Audi noirs sur la calandre, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, حلقات أودي السوداء على الشبكة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, black Audi rings on the grille, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, aros de Audi negros en la parrilla, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-cameras-pare-brise.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, caméras d'aide à la conduite derrière le pare-brise, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, كاميرات مساعدة القيادة خلف الزجاج الأمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, driver assistance cameras behind the windscreen, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, cámaras de asistencia a la conducción tras el parabrisas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-retroviseur-carbone.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, coque de rétroviseur en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, غطاء مرآة من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, carbon mirror cap, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, carcasa de retrovisor de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-retroviseur-camera-360.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, rétroviseur et caméra 360°, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, المرآة وكاميرا 360 درجة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, mirror with 360 degree camera, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, retrovisor y cámara 360°, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-badge-s-line.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, badge S line sur l'aile, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, شارة S line على الرفرف, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, S line badge on the wing, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, insignia S line en la aleta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-jante-23-pouces-etrier-rouge.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, jante 23 pouces et étrier de frein rouge, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, جنط 23 بوصة وفك مكابح أحمر, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, 23 inch wheel and red brake caliper, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, llanta de 23 pulgadas y pinza de freno roja, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-jante-arriere.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, jante arrière et étrier rouge, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, الجنط الخلفي وفك المكابح الأحمر, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, rear wheel and red caliper, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, llanta trasera y pinza roja, en Aurea Premium Cars, Tánger"
      }
     },
     {
@@ -989,97 +1657,232 @@
       "fr": "Audi Q8 50 TDI quattro S line noir, vue trois-quarts arrière de l'autre côté, chez Aurea Premium Cars à Tanger",
       "ar": "أودي Q8 50 TDI quattro S line سوداء, منظر خلفي جانبي من الجهة الأخرى, لدى Aurea Premium Cars في طنجة",
       "en": "Black Audi Q8 50 TDI quattro S line, rear three-quarter view from the other side, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, vista tres cuartos trasera del otro lado, en Aurea Premium Cars, Tánger"
+      "es": "Audi Q8 50 TDI quattro S line negro, vista tres cuartos trasera desde el otro lado, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-face-arriere.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-toit-becquet.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, vue arrière avec bandeau lumineux, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, منظر خلفي مع الشريط الضوئي, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, rear view with full width light bar, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, vista trasera con barra de luz de ancho completo, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, toit, toit ouvrant et becquet arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, السقف والفتحة والجناح الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, roof, sunroof and rear spoiler, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, techo, techo solar y alerón trasero, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-interieur-porte-ouverte.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-interieur-poste-de-conduite.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, intérieur vu par la porte ouverte, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, المقصورة من الباب المفتوح, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, interior seen through the open door, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, interior visto por la puerta abierta, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, poste de conduite, volant S et sièges matelassés, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, مكان السائق والمقود S والمقاعد المبطنة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, cockpit with S steering wheel and quilted seats, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, puesto de conducción, volante S y asientos acolchados, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-tableau-de-bord.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-interieur-vue-porte.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, tableau de bord et double écran tactile, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة القيادة والشاشتان, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, dashboard and twin touchscreens, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, salpicadero y doble pantalla táctil, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, habitacle vu par la porte conducteur, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, المقصورة من باب السائق, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, cabin seen through the driver door, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, habitáculo visto desde la puerta del conductor, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-poste-de-conduite.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-doubles-ecrans-mmi.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, poste de conduite et volant à surpiqûres rouges, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, مكان السائق والمقود بخياطة حمراء, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, driver cockpit and red stitched steering wheel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, puesto de conducción y volante con pespuntes rojos, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, doubles écrans tactiles MMI, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, شاشتا MMI اللمسيتان, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, dual MMI touchscreens, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, doble pantalla táctil MMI, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-volant-s-compteurs.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-ecran-climatisation.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, volant S et combiné numérique, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, مقود S والعدادات الرقمية, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, S steering wheel and digital cluster, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, volante S y cuadro digital, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, écran de climatisation et bouton de démarrage, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, شاشة التكييف وزر التشغيل, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, climate screen and start button, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, pantalla del climatizador y botón de arranque, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-banquette-arriere.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-selecteur-vitesses.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, sièges arrière matelassés et ceintures rouges, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, مقاعد خلفية مبطنة وأحزمة حمراء, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, quilted rear seats with red seat belts, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, asientos traseros acolchados con cinturones rojos, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, sélecteur de vitesses, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, ناقل الحركة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, gear selector, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, selector de marchas, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-panneau-de-porte.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-planche-de-bord-passager.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, panneau de porte, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة الباب, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, door panel, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, panel de puerta, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, tableau de bord côté passager, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة القيادة من جهة الراكب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, dashboard, passenger side, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, salpicadero, lado del acompañante, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-jante-23-pouces-etrier-rouge.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-finition-carbone.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, jante 23 pouces et étrier de frein rouge, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, جنط 23 بوصة وفك مكابح أحمر, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, 23 inch wheel and red brake caliper, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, llanta de 23 pulgadas y pinza de freno roja, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, finition carbone de la planche de bord, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, زخرفة الكربون في لوحة القيادة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, carbon dashboard trim, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, moldura de carbono del salpicadero, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-retroviseur-carbone.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-badge-s-volant.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, coque de rétroviseur en carbone, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, غطاء مرآة من الكربون, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, carbon fibre mirror cap, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, carcasa de retrovisor de fibra de carbono, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, badge S sur le volant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, شارة S على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, S badge on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, insignia S en el volante, en Aurea Premium Cars, Tánger"
      }
     },
     {
-     "file": "assets/cars/audi-q8-s-line-noir-tanger-badge-s-line.webp",
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commandes-volant-gauche.webp",
      "alt": {
-      "fr": "Audi Q8 50 TDI quattro S line noir, badge S line sur l'aile, chez Aurea Premium Cars à Tanger",
-      "ar": "أودي Q8 50 TDI quattro S line سوداء, شارة S line على الرفرف, لدى Aurea Premium Cars في طنجة",
-      "en": "Black Audi Q8 50 TDI quattro S line, S line badge on the wing, at Aurea Premium Cars in Tangier",
-      "es": "Audi Q8 50 TDI quattro S line negro, insignia S line en la aleta, en Aurea Premium Cars, Tánger"
+      "fr": "Audi Q8 50 TDI quattro S line noir, commandes téléphone et multimédia au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, أزرار الهاتف والوسائط على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, phone and media buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, mandos de teléfono y multimedia en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commandes-volant-droite.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, commandes d'affichage au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, أزرار العرض على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, display buttons on the steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, mandos de pantalla en el volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commodo-eclairage.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, commodo d'éclairage et clignotants, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, ذراع الأضواء والإشارات, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, light and indicator stalk, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, palanca de luces e intermitentes, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commodo-essuie-glace.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, commodo d'essuie-glace, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, ذراع المساحات, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, wiper stalk, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, palanca del limpiaparabrisas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commandes-eclairage.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, commandes d'éclairage, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة أزرار الإضاءة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, light switch panel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, mandos de iluminación, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-console-plafonnier.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, console de plafonnier, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة التحكم العلوية, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, overhead control panel, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, consola del techo, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-toit-ouvrant.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, toit ouvrant, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, فتحة السقف, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, sunroof, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, techo solar, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-siege-s-matelasse.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, siège S matelassé à surpiqûres rouges, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, مقعد S مبطن بخياطة حمراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, quilted S seat with red stitching, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, asiento S acolchado con pespuntes rojos, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-porte-avant-ouverte.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, panneau de porte avant en suède et surpiqûres rouges, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, لوحة الباب الأمامي من السويد بخياطة حمراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, front door panel in suede and red stitching, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, panel de puerta delantera en ante con pespuntes rojos, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-poignee-memoires-siege.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, poignée, éclairage d'ambiance et mémoires de siège, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, المقبض والإضاءة المحيطية وذاكرة المقعد, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, door handle, ambient light and seat memory, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, tirador, luz ambiental y memorias del asiento, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-commandes-vitres.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, commandes des vitres et des rétroviseurs, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, أزرار النوافذ والمرايا, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, window and mirror switches, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, mandos de ventanillas y retrovisores, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-haut-parleur-bang-olufsen.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, haut-parleur Bang & Olufsen de porte, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, مكبر صوت Bang & Olufsen في الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, Bang & Olufsen door speaker, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, altavoz Bang & Olufsen de la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-projection-logo-s.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, logo S projeté sous la porte, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, شعار S المضاء تحت الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, S logo projected under the door, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, logotipo S proyectado bajo la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-pedalier-aluminium.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, pédalier aluminium, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, دواسات من الألمنيوم, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, aluminium pedals, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, pedales de aluminio, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-pare-soleil-arriere.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, pare-soleil de porte arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, ستارة الباب الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, rear door sunshade, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, cortinilla de la puerta trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/audi-q8-s-line-noir-tanger-sieges-arriere-ceintures-rouges.webp",
+     "alt": {
+      "fr": "Audi Q8 50 TDI quattro S line noir, sièges arrière et ceintures rouges, chez Aurea Premium Cars à Tanger",
+      "ar": "أودي Q8 50 TDI quattro S line سوداء, المقاعد الخلفية وأحزمة الأمان الحمراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Audi Q8 50 TDI quattro S line, rear seats with red seat belts, at Aurea Premium Cars in Tangier",
+      "es": "Audi Q8 50 TDI quattro S line negro, asientos traseros y cinturones rojos, en Aurea Premium Cars, Tánger"
      }
     }
    ]
