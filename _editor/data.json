@@ -3,6 +3,8 @@
   "showroomTotal": 15,
   "whatsapp": "212775772920",
   "newArrivals": [
+   "urus",
+   "brabus800",
    "q8",
    "cayenne",
    "glc300de",
@@ -10,6 +12,981 @@
   ]
  },
  "cars": [
+  {
+   "id": "urus",
+   "slug": "lamborghini-urus-performante-jaune-tanger",
+   "make": "Lamborghini",
+   "model": "Urus Performante",
+   "name": "",
+   "nameAr": "لامبورغيني Urus Performante",
+   "year": null,
+   "body": {
+    "fr": "SUV",
+    "ar": "SUV",
+    "en": "SUV",
+    "es": "SUV"
+   },
+   "km": 9407,
+   "color": {
+    "fr": "Jaune",
+    "ar": "أصفر",
+    "en": "Yellow",
+    "es": "Amarillo"
+   },
+   "from": null,
+   "status": "available",
+   "engine": {
+    "fr": "Essence V8 biturbo 4,0 L",
+    "ar": "بنزين V8 تيربو مزدوج 4.0 لتر",
+    "en": "4.0L twin turbo V8 petrol",
+    "es": "Gasolina V8 biturbo 4,0 L"
+   },
+   "hp": 666,
+   "torque": 850,
+   "gearbox": {
+    "fr": "Automatique 8 rapports",
+    "ar": "أوتوماتيك 8 سرعات",
+    "en": "8 speed automatic",
+    "es": "Automático de 8 velocidades"
+   },
+   "drive": {
+    "fr": "Quatre roues motrices",
+    "ar": "دفع رباعي",
+    "en": "All wheel drive",
+    "es": "Tracción total"
+   },
+   "fuel": {
+    "fr": "Essence",
+    "ar": "بنزين",
+    "en": "Petrol",
+    "es": "Gasolina"
+   },
+   "accel": 3.3,
+   "top": 306,
+   "interior": {
+    "fr": "Alcantara noir et jaune",
+    "ar": "ألكانتارا أسود وأصفر",
+    "en": "Black and yellow Alcantara",
+    "es": "Alcantara negro y amarillo"
+   },
+   "equipment": {
+    "fr": "Capot et pièces en carbone, échappement Akrapovič, jantes noires, sélecteur ANIMA",
+    "ar": "غطاء محرك وقطع من الكربون، عادم Akrapovič، جنوط سوداء، محدد ANIMA",
+    "en": "Carbon bonnet and parts, Akrapovič exhaust, black wheels, ANIMA selector",
+    "es": "Capó y piezas de carbono, escape Akrapovič, llantas negras, selector ANIMA"
+   },
+   "battery": null,
+   "evRange": null,
+   "kw": "لامبورغيني اوروس",
+   "photos": [
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-avant-trois-quarts.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-avant-trois-quarts-gauche.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue trois-quarts avant gauche, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر أمامي جانبي من اليسار, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front three-quarter view from the left, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista tres cuartos delantera izquierda, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-face-avant.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue de face, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر أمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front view, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista frontal, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-bouclier-avant.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, bouclier avant et phare, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الواقي الأمامي والمصباح, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front bumper and headlight, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, paragolpes delantero y faro, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-capot-carbone.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, capot en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, غطاء محرك من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, carbon fibre bonnet, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, capó de fibra de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-embleme-capot.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, écusson Lamborghini sur le capot, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, شعار لامبورغيني على الغطاء, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Lamborghini badge on the bonnet, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, escudo Lamborghini en el capó, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-calandre-camera.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, calandre et caméra avant, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الشبكة الأمامية والكاميرا, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front grille and camera, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, parrilla y cámara delantera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-prise-air-drapeau-italien.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, prise d'air avec drapeau italien, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, فتحة هواء مع العلم الإيطالي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, air vent with the Italian flag, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, toma de aire con la bandera italiana, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-jante-noire.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, jante noire et étrier de frein, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, جنط أسود ومكبح, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, black wheel and brake caliper, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, llanta negra y pinza de freno, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-bas-de-caisse-performante.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, bas de caisse avec monogramme Performante, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, العتبة الجانبية مع شعار Performante, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, side skirt with the Performante script, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, faldón lateral con el logotipo Performante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-retroviseur-carbone.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, rétroviseur en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مرآة جانبية من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, carbon fibre mirror, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, retrovisor de fibra de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-arriere-trois-quarts.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue trois-quarts arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر خلفي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, rear three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista tres cuartos trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-arriere-trois-quarts-droit.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue trois-quarts arrière droite, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر خلفي جانبي من اليمين, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, rear three-quarter view from the right, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista tres cuartos trasera derecha, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-face-arriere.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, vue arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, منظر خلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, rear view, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, vista trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-arriere-diffuseur.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, arrière et diffuseur en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الخلفية وناشر الهواء من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, rear end and carbon diffuser, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, zaga y difusor de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-feu-arriere.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, feu arrière en Y, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, المصباح الخلفي على شكل Y, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Y-shaped tail light, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, piloto trasero en forma de Y, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-monogramme-lamborghini.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, monogramme Lamborghini à l'arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, شعار لامبورغيني في الخلف, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Lamborghini script on the tailgate, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, logotipo Lamborghini en el portón, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-becquet-arriere.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, becquet arrière en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, جناح خلفي من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, carbon rear spoiler, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, alerón trasero de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-aileron-toit-carbone.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, aileron de toit en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, جناح السقف من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, carbon roof spoiler, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, alerón de techo de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-lunette-arriere.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, lunette arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الزجاج الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, rear window, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, luneta trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-echappement-akrapovic.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, sorties d'échappement Akrapovič, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مخارج عادم Akrapovič, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Akrapovič exhaust tips, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, salidas de escape Akrapovič, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-volant-alcantara.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, volant en Alcantara, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقود من الألكانتارا, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Alcantara steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, volante de Alcantara, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-poste-de-conduite.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, poste de conduite, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقصورة القيادة, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, driver's seat and dashboard, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, puesto de conducción, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-interieur-vue-porte.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, intérieur vu de la porte, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, المقصورة من الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, interior seen from the door, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, interior visto desde la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-sieges-avant.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, sièges avant en Alcantara noir et jaune, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقاعد أمامية من الألكانتارا الأسود والأصفر, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, black and yellow Alcantara front seats, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, asientos delanteros de Alcantara negro y amarillo, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-sieges-avant-cote-passager.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, sièges avant côté passager, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, المقاعد الأمامية من جهة الراكب, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, front seats from the passenger side, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, asientos delanteros desde el lado del acompañante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-siege-urus.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, siège avec broderie Urus, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقعد مع تطريز Urus, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, seat with Urus embroidery, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, asiento con bordado Urus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-siege-surpiqures-jaunes.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, siège avec surpiqûres jaunes, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقعد بخياطة صفراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, seat with yellow stitching, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, asiento con pespuntes amarillos, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-console-centrale.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, console centrale, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الكونسول الأوسط, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, centre console, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, consola central, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-ecrans-tactiles.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, écrans tactiles, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الشاشات اللمسية, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, touchscreens, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, pantallas táctiles, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-selecteur-modes-anima.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, sélecteur de modes ANIMA, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, محدد أوضاع القيادة ANIMA, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, ANIMA drive mode selector, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, selector de modos ANIMA, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-aeration-carbone.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, aération et finitions carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, فتحة تهوية ولمسات من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, air vent and carbon trim, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, salida de aire y acabados de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-planche-de-bord-lamborghini.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, planche de bord avec monogramme Lamborghini, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, لوحة القيادة مع شعار لامبورغيني, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, dashboard with the Lamborghini script, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, salpicadero con el logotipo Lamborghini, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-combine-numerique.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, combiné d'instruments numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, عداد رقمي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, digital instrument cluster, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, cuadro de instrumentos digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-palette-surpiqures-jaunes.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, palette de vitesse et surpiqûres jaunes, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, ذراع تبديل السرعات وخياطة صفراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, gearshift paddle and yellow stitching, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, levas de cambio y pespuntes amarillos, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-commandes-volant.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, commandes au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, أزرار المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, steering wheel controls, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, mandos del volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-accoudoir-central.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, accoudoir central, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مسند الذراع الأوسط, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, centre armrest, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, reposabrazos central, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-plafonnier.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, plafonnier, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, إضاءة السقف, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, overhead console, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, plafón, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-commandes-vitres.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, commandes des vitres, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, أزرار النوافذ, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, window controls, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, mandos de las ventanillas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-panneau-de-porte-alcantara.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, panneau de porte en Alcantara, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, لوحة الباب من الألكانتارا, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Alcantara door panel, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, panel de puerta de Alcantara, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-porte-ouverte.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, porte avant ouverte, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, الباب الأمامي مفتوح, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, open front door, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, puerta delantera abierta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-poignee-interieure.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, poignée de porte intérieure, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقبض الباب الداخلي, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, interior door handle, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, tirador interior de la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-poignee-carbone.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, poignée et garniture carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مقبض ولمسة من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, door handle and carbon trim, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, tirador y moldura de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-seuil-de-porte.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, seuil de porte Lamborghini, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, عتبة باب لامبورغيني, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, Lamborghini door sill, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, umbral de puerta Lamborghini, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-pedalier.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, pédalier aluminium, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, دواسات من الألومنيوم, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, aluminium pedals, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, pedales de aluminio, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/lamborghini-urus-performante-jaune-tanger-haut-parleur.webp",
+     "alt": {
+      "fr": "Lamborghini Urus Performante jaune, haut-parleur de porte, chez Aurea Premium Cars à Tanger",
+      "ar": "لامبورغيني أوروس بيرفورمانتي صفراء, مكبر صوت الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Yellow Lamborghini Urus Performante, door speaker, at Aurea Premium Cars in Tangier",
+      "es": "Lamborghini Urus Performante amarillo, altavoz de la puerta, en Aurea Premium Cars, Tánger"
+     }
+    }
+   ]
+  },
+  {
+   "id": "brabus800",
+   "slug": "brabus-800-g63-noir-tanger",
+   "make": "Brabus",
+   "model": "800 G 63",
+   "name": "",
+   "nameAr": "برابوس 800 G 63",
+   "year": null,
+   "body": {
+    "fr": "SUV",
+    "ar": "SUV",
+    "en": "SUV",
+    "es": "SUV"
+   },
+   "km": 4693,
+   "color": {
+    "fr": "Noir",
+    "ar": "أسود",
+    "en": "Black",
+    "es": "Negro"
+   },
+   "from": null,
+   "status": "available",
+   "engine": {
+    "fr": "Essence V8 biturbo 4,0 L Brabus, micro-hybride",
+    "ar": "بنزين V8 تيربو مزدوج 4.0 لتر من برابوس، هجين خفيف",
+    "en": "Brabus 4.0L twin turbo V8 petrol, mild hybrid",
+    "es": "Gasolina V8 biturbo 4,0 L Brabus, microhíbrido"
+   },
+   "hp": 800,
+   "torque": 1000,
+   "gearbox": {
+    "fr": "Automatique 9 rapports (SPEEDSHIFT TCT)",
+    "ar": "أوتوماتيك 9 سرعات (SPEEDSHIFT TCT)",
+    "en": "9 speed automatic (SPEEDSHIFT TCT)",
+    "es": "Automático de 9 velocidades (SPEEDSHIFT TCT)"
+   },
+   "drive": {
+    "fr": "Quatre roues motrices (4MATIC)",
+    "ar": "دفع رباعي (4MATIC)",
+    "en": "All wheel drive (4MATIC)",
+    "es": "Tracción total (4MATIC)"
+   },
+   "fuel": {
+    "fr": "Essence",
+    "ar": "بنزين",
+    "en": "Petrol",
+    "es": "Gasolina"
+   },
+   "accel": 4.0,
+   "top": 240,
+   "interior": {
+    "fr": "Cuir noir matelassé, surpiqûres rouges",
+    "ar": "جلد أسود مبطن بخياطة حمراء",
+    "en": "Black quilted leather, red stitching",
+    "es": "Cuero negro acolchado, pespuntes rojos"
+   },
+   "equipment": {
+    "fr": "Carrosserie WIDESTAR en carbone, jantes forgées Monoblock, échappement sport Brabus, son Burmester, rampe LED de toit",
+    "ar": "هيكل WIDESTAR من الكربون، جنوط Monoblock مطروقة، عادم برابوس رياضي، صوت Burmester، أضواء LED على السقف",
+    "en": "Carbon WIDESTAR body kit, forged Monoblock wheels, Brabus sports exhaust, Burmester sound, roof LED light bar",
+    "es": "Carrocería WIDESTAR de carbono, llantas forjadas Monoblock, escape deportivo Brabus, sonido Burmester, barra LED de techo"
+   },
+   "battery": null,
+   "evRange": null,
+   "kw": "برابوس مرسيدس جي كلاس G63",
+   "photos": [
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-avant-trois-quarts.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue trois-quarts avant, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر أمامي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), front three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista tres cuartos delantera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-avant-trois-quarts-gauche.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue trois-quarts avant gauche, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر أمامي جانبي من اليسار, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), front three-quarter view from the left, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista tres cuartos delantera izquierda, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-face-avant.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue de face, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر أمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), front view, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista frontal, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-calandre-logo-b.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, calandre avec logo Brabus, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الشبكة مع شعار برابوس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), grille with the Brabus logo, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, parrilla con el logotipo Brabus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-calandre-bouclier-avant.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, calandre et bouclier avant, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الشبكة والواقي الأمامي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), grille and front bumper, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, parrilla y paragolpes delantero, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-capot-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, capot en carbone et rampe LED, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, غطاء المحرك من الكربون وأضواء LED, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon bonnet and LED light bar, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, capó de carbono y barra LED, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-capot-power-dome.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, capot Power Dome en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, غطاء Power Dome من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon Power Dome bonnet, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, capó Power Dome de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-rampe-led-toit.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, rampe LED de toit, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, أضواء LED على السقف, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), roof LED light bar, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, barra LED de techo, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-jante-monoblock-24-pouces.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, jante forgée Brabus Monoblock, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, جنط برابوس Monoblock مطروق, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), forged Brabus Monoblock wheel, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, llanta forjada Brabus Monoblock, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-retroviseur-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, rétroviseur en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مرآة جانبية من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon fibre mirror, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, retrovisor de fibra de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-aile-widestar-800.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, aile WIDESTAR avec logo 800, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الجناح WIDESTAR مع شعار 800, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), WIDESTAR wing with the 800 badge, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, aleta WIDESTAR con el logotipo 800, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-echappement-lateral.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, sorties d'échappement latérales rouges, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مخارج عادم جانبية حمراء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), red side exhaust tips, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, salidas de escape laterales rojas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-arriere-trois-quarts.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue trois-quarts arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر خلفي جانبي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear three-quarter view, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista tres cuartos trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-arriere-trois-quarts-droit.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue trois-quarts arrière droite, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر خلفي جانبي من اليمين, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear three-quarter view from the right, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista tres cuartos trasera derecha, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-face-arriere.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, vue arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, منظر خلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear view, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, vista trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-roue-de-secours-brabus.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, arrière avec roue de secours Brabus, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الخلفية مع العجلة الاحتياطية برابوس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear with the Brabus spare wheel cover, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, zaga con la rueda de repuesto Brabus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-couvre-roue-de-secours.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, couvre-roue de secours Brabus, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, غطاء العجلة الاحتياطية برابوس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), Brabus spare wheel cover, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, cubierta de la rueda de repuesto Brabus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-feu-arriere.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, feu arrière et aile, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, المصباح الخلفي والجناح, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), tail light and wing, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, piloto trasero y aleta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-aileron-arriere.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, aileron arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الجناح الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear wing, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, alerón trasero, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-aileron-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, aileron en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, جناح من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon wing, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, alerón de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-volant-amg.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, volant AMG en carbone et Alcantara, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مقود AMG من الكربون والألكانتارا, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon and Alcantara AMG steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, volante AMG de carbono y Alcantara, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-volant-combine.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, volant et combiné numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, المقود والعداد الرقمي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), steering wheel and digital cluster, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, volante y cuadro digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-combine-numerique.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, combiné d'instruments numérique, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, عداد رقمي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), digital instrument cluster, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, cuadro de instrumentos digital, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-poste-de-conduite.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, poste de conduite, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مقصورة القيادة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), driver's seat and dashboard, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, puesto de conducción, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-interieur-vue-porte.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, intérieur vu de la porte, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, المقصورة من الباب, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), interior seen from the door, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, interior visto desde la puerta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-sieges-avant-matelasses.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, sièges avant en cuir matelassé, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مقاعد أمامية من الجلد المبطن, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), quilted leather front seats, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, asientos delanteros de cuero acolchado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-sieges-arriere.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, sièges arrière en cuir matelassé, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مقاعد خلفية من الجلد المبطن, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), quilted leather rear seats, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, asientos traseros de cuero acolchado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-banquette-arriere.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, banquette arrière, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, المقعد الخلفي, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), rear bench, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, banqueta trasera, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-tapis-brabus.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, pédalier et tapis Brabus, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الدواسات وسجادة برابوس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), pedals and Brabus floor mat, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, pedales y alfombrilla Brabus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-seuil-lumineux-brabus.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, seuil de porte lumineux Brabus, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, عتبة باب مضيئة برابوس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), illuminated Brabus door sill, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, umbral iluminado Brabus, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-porte-ouverte.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, porte avant ouverte, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الباب الأمامي مفتوح, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), open front door, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, puerta delantera abierta, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-panneau-de-porte.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, panneau de porte matelassé, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, لوحة باب مبطنة, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), quilted door panel, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, panel de puerta acolchado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-garniture-porte-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, garniture de porte en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, لمسات الباب من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon door trim, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, moldura de puerta de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-commandes-siege-burmester.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, commandes de siège et haut-parleur Burmester, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, أزرار المقعد ومكبر صوت Burmester, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), seat controls and Burmester speaker, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, mandos del asiento y altavoz Burmester, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-haut-parleur-burmester.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, haut-parleur Burmester éclairé, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مكبر صوت Burmester مضيء, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), illuminated Burmester speaker, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, altavoz Burmester iluminado, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-planche-de-bord-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, planche de bord en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, لوحة القيادة من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon dashboard, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, salpicadero de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-aerations-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, aérations et console en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, فتحات التهوية والكونسول من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), air vents and carbon console, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, salidas de aire y consola de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-aeration-detail.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, détail d'aération en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, تفاصيل فتحة التهوية من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon air vent detail, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, detalle de salida de aire de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-console-centrale-carbone.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, console centrale en carbone, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, الكونسول الأوسط من الكربون, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), carbon centre console, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, consola central de carbono, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-pave-tactile.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, pavé tactile, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, لوحة اللمس, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), touchpad, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, panel táctil, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-ecran-mbux.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, écran MBUX, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, شاشة MBUX, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), MBUX screen, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, pantalla MBUX, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-molettes-amg.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, molettes AMG au volant, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, أزرار AMG على المقود, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), AMG steering wheel dials, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, ruedas AMG del volante, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-palette-de-vitesse.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, palette de vitesse, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, ذراع تبديل السرعات, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), gearshift paddle, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, leva de cambio, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-volant-alcantara.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, volant en Alcantara, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, مقود من الألكانتارا, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), Alcantara steering wheel, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, volante de Alcantara, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-commandes-vitres.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, commandes des vitres, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, أزرار النوافذ, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), window controls, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, mandos de las ventanillas, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-plafonnier.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, plafonnier, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, إضاءة السقف, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), overhead console, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, plafón, en Aurea Premium Cars, Tánger"
+     }
+    },
+    {
+     "file": "assets/cars/brabus-800-g63-noir-tanger-toit-ouvrant.webp",
+     "alt": {
+      "fr": "Brabus 800 (Mercedes-AMG G 63) noir, toit ouvrant, chez Aurea Premium Cars à Tanger",
+      "ar": "برابوس 800 (مرسيدس-AMG G 63) سوداء, فتحة السقف, لدى Aurea Premium Cars في طنجة",
+      "en": "Black Brabus 800 (Mercedes-AMG G 63), sunroof, at Aurea Premium Cars in Tangier",
+      "es": "Brabus 800 (Mercedes-AMG G 63) negro, techo solar, en Aurea Premium Cars, Tánger"
+     }
+    }
+   ]
+  },
   {
    "id": "glc",
    "slug": "mercedes-glc-coupe-noir-tanger",
