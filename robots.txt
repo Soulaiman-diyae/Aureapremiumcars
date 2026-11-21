@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aureapremiumcars.com/sitemap.xml

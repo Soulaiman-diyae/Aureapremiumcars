@@ -183,6 +183,10 @@ function build() {
     h = h.replace(/"makesOffer": \[[\s\S]*?\]\}(?=<\/script>)/, '"makesOffer": ' + JSON.stringify(cars.map(c => ({ '@type': 'Offer', itemOffered: { '@type': 'Car', name: latin(c), brand: { '@type': 'Brand', name: c.make } } }))).replace(/</g, '\\u003c') + '}');
     write(DIR[l] + 'index.html', h);
   }
+  // sitemap.xml: every page in the four languages, so search engines find them all at https://aureapremiumcars.com
+  const SITE = 'https://aureapremiumcars.com/', paths = ['', ...cars.map(c => `voitures/${c.slug}.html`)];
+  write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' +
+    paths.flatMap(p => LANGS.map(l => '<url><loc>' + SITE + DIR[l] + p + '</loc>' + LANGS.map(k => `<xhtml:link rel="alternate" hreflang="${k}" href="${SITE + DIR[k] + p}"/>`).join('') + '</url>')).join('\n') + '\n</urlset>\n');
   // photos no longer used by any car or page are removed
   const used = new Set();
   for (const c of data.cars) for (const p of c.photos || []) for (const f of [p.file, sized(p.file, 800), sized(p.file, 160)]) used.add(path.basename(f));
